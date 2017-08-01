@@ -1,2 +1,2 @@
 # CancerStats
-Please follow this link to view the result: https://alex-nguyen.github.io/CancerStats/index.html
+Please follow this link to view the result of the 1st set: https://alex-nguyen.github.io/CancerStats/index.html
