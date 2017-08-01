@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rose chart for Cancer</title>
+    <!-- Stylesheets -->
+    <link href='http://fonts.googleapis.com/css?family=Cabin:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- Libraries -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts/script.js"></script>
+</head>
+<style>
+    td{
+        text-align: center;
+    }
+    .arc{
+        fill:#bc96a5;
+        stroke: black;
+    }
+</style>
+<body>
+<div id="cancer">
+
+</div>
+<div>
+    <div>
+        <input id="slider" onchange="_sliderchange()" type="range" min="0" max="1" step="0.05"  value="0.05">
+    </div>
+    <div>Move slider to change the significant value. Current value: <label id="slidervalue">0.05</label></div>
+</div>
+
+<script>
+    function _sliderchange() {
+        var slider = document.getElementById('slider');
+        var label = document.getElementById('slidervalue');
+        label.innerHTML =slider.value;
+        d3.selectAll("circle").attr("r",SignificantScale(slider.value));
+    }
+
+</script>
+
+<table width="100%" border="1" style="border-collapse: collapse;">
+    <tr id="row1">
+        <td>N/A</td>
+        <td>GSTA1</td>
+        <td>GSTM2</td>
+        <td>GSTP1</td>
+        <td>MYC</td>
+        <td>PIK3CA</td>
+        <td>TP53</td>
+        <td>RALBP1</td>
+    </tr>
+    <tr id="row2">
+        <td>GSTA1</td>
+        <td class="GSTA1-GSTA1"></td>
+        <td class="GSTA1-GSTM2"></td>
+        <td class="GSTA1-GSTP1"></td>
+        <td class="MYC-GSTA1"></td>
+        <td class="GSTA1-PIK3CA"></td>
+        <td class="TP53-GSTA1"></td>
+        <td class="GSTA1-RALBP1"></td>
+    </tr>
+    <tr id="row3">
+        <td>GSTM2</td>
+        <td class="GSTA1-GSTM2"></td>
+        <td class="GSTM2-GSTM2"></td>
+        <td class="GSTM2-GSTP1"></td>
+        <td class="MYC-GSTM2"></td>
+        <td class="GSTM2-PIK3CA"></td>
+        <td class="TP53-GSTM2"></td>
+        <td class="GSTM2-RALBP1"></td>
+    </tr>
+    <tr id="row4">
+        <td>GSTP1</td>
+        <td class="GSTA1-GSTP1"></td>
+        <td class="GSTM2-GSTP1"></td>
+        <td class="GSTP1-GSTP1"></td>
+        <td class="MYC-GSTP1"></td>
+        <td class="GSTP1-PIK3CA"></td>
+        <td class="TP53-GSTP1"></td>
+        <td class="GSTP1-RALBP1"></td>
+    </tr>
+    <tr id="row5">
+        <td>MYC</td>
+        <td class="MYC-GSTA1"></td>
+        <td class="MYC-GSTM2"></td>
+        <td class="MYC-GSTP1"></td>
+        <td class="MYC-MYC"></td>
+        <td class="MYC-PIK3CA"></td>
+        <td class="MYC-TP53"></td>
+        <td class="MYC-RALBP1"></td>
+    </tr>
+    <tr id="row6">
+        <td>PIK3CA</td>
+        <td class="GSTA1-PIK3CA"></td>
+        <td class="GSTM2-PIK3CA"></td>
+        <td class="GSTP1-PIK3CA"></td>
+        <td class="MYC-PIK3CA"></td>
+        <td class="PIK3CA-PIK3CA"></td>
+        <td class="TP53-PIK3CA"></td>
+        <td class="PIK3CA-RALBP1"></td>
+    </tr>
+    <tr id="row7">
+        <td>TP53</td>
+        <td class="TP53-GSTA1"></td>
+        <td class="TP53-GSTM2"></td>
+        <td class="TP53-GSTP1"></td>
+        <td class="MYC-TP53"></td>
+        <td class="TP53-PIK3CA"></td>
+        <td class="TP53-TP53"></td>
+        <td class="TP53-RALBP1"></td>
+    </tr>
+    <tr id="row8">
+        <td>RALBP1</td>
+        <td class="GSTA1-RALBP1"></td>
+        <td class="GSTM2-RALBP1"></td>
+        <td class="GSTP1-RALBP1"></td>
+        <td class="MYC-RALBP1"></td>
+        <td class="PIK3CA-RALBP1"></td>
+        <td class="TP53-RALBP1"></td>
+        <td class="RALBP1-RALBP1"></td>
+    </tr>
+</table>
+<script>
+    function SignificantScale( x) {
+        var RadiusScale;
+        if(x<=0.05){
+            RadiusScale = d3.scale.linear().domain([0,0.05]).range([70,50]);
+        }else{
+            RadiusScale = d3.scale.linear().domain([0.051,1]).range([45,5]);
+        }
+        return RadiusScale(x);
+    }
+   // var RadiusScale = d3.scale.linear().domain([0,1]).range([70,5]);
+
+    // Load the JSON data:
+    d3.csv( 'Data/Data.csv', function( data ) {
+        //console.log(data)
+        var Pairwise = new Object();
+        data.forEach(function (d) {
+            var geneA = d.geneA, geneB = d.geneB;
+            if(!Pairwise.hasOwnProperty(d.geneA+"-"+d.geneB)){
+                Pairwise[d.geneA+"-"+d.geneB]=[];
+                Pairwise[d.geneA+"-"+d.geneB].push({"id":0,"name":d.Cancer,"value":d['p-Value']});
+            }
+            else{
+                Pairwise[d.geneA+"-"+d.geneB].push({"id":Pairwise[geneA+"-"+d.geneB].length,"name":d.Cancer,"value":d['p-Value']});
+            }
+        })
+
+        console.log(Pairwise)
+        // Get the maximum value:
+        for(var key in Pairwise){
+            var svg = d3.selectAll("."+key)
+                .append("svg")
+                .attr("width", 200)
+                .attr("height", 200)
+                .append("g")
+                .attr("transform", "translate(100,100)");
+
+            var arc = d3.svg.arc();
+
+         var path=   svg.selectAll("path").data(Pairwise[key]).enter().append("g");
+             path.append("path")
+                .attr("class", "arc")
+                .attr("id", function (d,i) {
+                    return "arc_"+i;
+                })
+                .attr("d", function (d,i) {
+                    arc.outerRadius(SignificantScale(d.value));
+                    arc.innerRadius(0);
+                    arc.startAngle(d.id*2*Math.PI/20);
+                    arc.endAngle((d.id+1)*2*Math.PI/20);
+                    return arc(d);
+                })
+                .append("title").text(function (d) {
+                return d.name + ": "+d.value;
+                 });
+                path.append("circle")
+                    .attr("r",function (d) {
+                        return SignificantScale(document.getElementById("slider").value);
+                    })
+                    .style("fill","none")
+                    .style("stroke","red")
+                    .style("stroke-dasharray","3 3");
+
+//            svg.selectAll(".arcText").data(Pairwise[key]).enter().append("text").attr("class","arcText")
+//                .attr("dy", -5)
+//                .append("textPath")
+//                .attr("startOffset","20%")
+//                .style("text-anchor","middle")
+//                .attr("xlink:href",function (d,i) {
+//                    return "#arc_"+i;
+//                }).text(function (d) {
+//                return d.value<0.05?d.value:null;
+//            })
+
+
+
+
+        }
+
+        // Where the maximum value gives us the maximum radius:
+
+
+
+    });
+
+
+</script>
+</body>
+</html>

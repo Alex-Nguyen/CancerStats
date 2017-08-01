@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nightingale's Rose</title>
+    <!-- Stylesheets -->
+    <link href='http://fonts.googleapis.com/css?family=Cabin:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- Libraries -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts/script.js"></script>
+</head>
+<body>
+<!--<h1>Nightingale's Rose</h1>-->
+
+<!-- Inspiration:
+    http://mbostock.github.io/protovis/ex/crimea-rose.html
+    http://understandinguncertainty.org/node/213
+-->
+
+<script type="text/javascript">
+        var rose = Chart.rose(),
+            height = 200,width=200;
+        legend = ['pvalue'];
+        var maxVal = 1;
+
+        // Load the JSON data:
+        d3.csv( 'Data/Data.csv', function( data ) {
+            //console.log(data)
+            var Pairwise = new Object();
+            data.forEach(function (d) {
+                var geneA = d.geneA, geneB = d.geneB;
+                if(!Pairwise.hasOwnProperty(geneA+"-"+geneB)){
+                    Pairwise[geneA+"-"+geneB]=[];
+                    Pairwise[geneA+"-"+geneB].push({"id":1,"name":d.Cancer,"value":d['p-Value']});
+                }
+                else{
+                    Pairwise[geneA+"-"+geneB].push({"id":Pairwise[geneA+"-"+geneB].length +1,"name":d.Cancer,"value":d['p-Value']});
+                }
+            })
+
+            console.log(Pairwise)
+            // Get the maximum value:
+            for(var key in Pairwise){
+
+                var maxRadius =maxVal * Pairwise[key].length / Math.PI;
+                // Append a new figure to the DOM:
+                figure = d3.selectAll("."+key)
+                    .append('figure');
+
+                // Update the chart generator settings:
+                rose.legend(legend)
+                    .width(width)
+                    .height(height)
+                    .delay(0)
+                    .duration(500)
+                    .domain([maxRadius,0 ])
+                    .angle(function (d) {
+                        return d.id;
+                    })
+                    .area(function (d, i) {
+                        return [d.value];
+                    });
+
+                // Bind the data and generate a new chart:
+                figure.datum(Pairwise[key])
+                    .attr('class', 'chart figure1')
+                    .call(rose);
+
+            }
+
+            // Where the maximum value gives us the maximum radius:
+
+
+
+        });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,421 @@
+Cancer,geneA,geneB,p-Value,Log Odds Ratio,Association
+Pan-Lung,MYC,TP53,0.142043845,0.267194001,Tendency towards co-occurrence
+Pan-Lung,MYC,GSTA1,0.079758521,0.798507696,Tendency towards co-occurrence
+Pan-Lung,MYC,GSTM2,0.01617119,1.432006341,Tendency towards co-occurrence(Significant)
+Pan-Lung,MYC,GSTP1,0.39279971,0.33332758,Tendency towards co-occurrence
+Pan-Lung,MYC,PIK3CA,0.295543385,-0.164303051,Tendency towards mutual exclusivity
+Pan-Lung,MYC,RALBP1,0.259268824,0.610170485,Tendency towards co-occurrence
+Pan-Lung,TP53,GSTA1,0.001746421,1.587756846,Tendency towards co-occurrence(Significant)
+Pan-Lung,TP53,GSTM2,0.315296522,0.438550833,Tendency towards co-occurrence
+Pan-Lung,TP53,GSTP1,0.301911939,0.359573115,Tendency towards co-occurrence
+Pan-Lung,TP53,PIK3CA,1.06E-13,1.242554339,Tendency towards co-occurrence(Significant)
+Pan-Lung,TP53,RALBP1,0.093316064,0.940555354,Tendency towards co-occurrence
+Pan-Lung,GSTA1,GSTM2,0.083791911,1.550532242,Tendency towards co-occurrence
+Pan-Lung,GSTA1,GSTP1,0.49176395,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,GSTA1,PIK3CA,0.147562187,0.467642353,Tendency towards co-occurrence
+Pan-Lung,GSTA1,RALBP1,0.42914858,0.640573827,Tendency towards co-occurrence
+Pan-Lung,GSTM2,GSTP1,0.695579468,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,GSTM2,PIK3CA,0.089884686,0.803217776,Tendency towards co-occurrence
+Pan-Lung,GSTM2,RALBP1,0.750706116,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,GSTP1,PIK3CA,0.353131569,0.264397554,Tendency towards co-occurrence
+Pan-Lung,GSTP1,RALBP1,0.666256647,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,PIK3CA,RALBP1,0.298584063,0.379489622,Tendency towards co-occurrence
+Bladder Uroethelial,MYC,TP53,0.469252853,-0.16034265,Tendency towards mutual exclusivity
+Bladder Uroethelial,MYC,GSTA1,0.589517445,-0.384845821,Tendency towards mutual exclusivity
+Bladder Uroethelial,MYC,GSTM2,0.149919317,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,MYC,GSTP1,0.593288161,-0.172416028,Tendency towards mutual exclusivity
+Bladder Uroethelial,MYC,PIK3CA,0.174307731,0.611082228,Tendency towards co-occurrence
+Bladder Uroethelial,MYC,RALBP1,0.319156086,0.481053465,Tendency towards co-occurrence
+Bladder Uroethelial,TP53,GSTA1,0.379604971,0.485507816,Tendency towards co-occurrence
+Bladder Uroethelial,TP53,GSTM2,0.145735166,-0.878069519,Tendency towards mutual exclusivity
+Bladder Uroethelial,TP53,GSTP1,0.273472785,0.510825624,Tendency towards co-occurrence
+Bladder Uroethelial,TP53,PIK3CA,0.006793471,1.098612289,Tendency towards co-occurrence(Significant)
+Bladder Uroethelial,TP53,RALBP1,0.17571568,0.621958919,Tendency towards co-occurrence
+Bladder Uroethelial,GSTA1,GSTM2,0.423915006,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,GSTA1,GSTP1,0.705606712,-0.093526058,Tendency towards mutual exclusivity
+Bladder Uroethelial,GSTA1,PIK3CA,0.552573442,0.145953913,Tendency towards co-occurrence
+Bladder Uroethelial,GSTA1,RALBP1,0.214768437,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,GSTM2,GSTP1,0.609292662,-0.336472237,Tendency towards mutual exclusivity
+Bladder Uroethelial,GSTM2,PIK3CA,0.29154751,-0.730887509,Tendency towards mutual exclusivity
+Bladder Uroethelial,GSTM2,RALBP1,0.063263834,1.327453861,Tendency towards co-occurrence
+Bladder Uroethelial,GSTP1,PIK3CA,0.042861621,1.114360646,Tendency towards co-occurrence(Significant)
+Bladder Uroethelial,GSTP1,RALBP1,0.593288161,-0.172416028,Tendency towards mutual exclusivity
+Bladder Uroethelial,PIK3CA,RALBP1,0.174307731,0.611082228,Tendency towards co-occurrence
+Acute Myeloid Leukemia,MYC,TP53,0.117228387,0.988376459,Tendency towards co-occurrence
+Acute Myeloid Leukemia,MYC,GSTA1,0.68217014,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,MYC,GSTM2,0.619006238,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,MYC,GSTP1,0.189369198,1.152100974,Tendency towards co-occurrence
+Acute Myeloid Leukemia,MYC,PIK3CA,0.460718225,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,MYC,RALBP1,0.622859619,0.119545151,Tendency towards co-occurrence
+Acute Myeloid Leukemia,TP53,GSTA1,0.085468073,1.960094784,Tendency towards co-occurrence
+Acute Myeloid Leukemia,TP53,GSTM2,0.48662624,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,TP53,GSTP1,0.002319052,2.33157263,Tendency towards co-occurrence(Significant)
+Acute Myeloid Leukemia,TP53,PIK3CA,0.286669548,0.832909123,Tendency towards co-occurrence
+Acute Myeloid Leukemia,TP53,RALBP1,0.028770685,1.631416819,Tendency towards co-occurrence(Significant)
+Acute Myeloid Leukemia,GSTA1,GSTM2,0.883845968,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,GSTA1,GSTP1,0.798460038,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,GSTA1,PIK3CA,0.81919926,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,GSTA1,RALBP1,0.778117107,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,GSTM2,GSTP1,0.754101147,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,GSTM2,PIK3CA,0.778744975,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,GSTM2,RALBP1,0.730085187,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,GSTP1,PIK3CA,0.366132606,0.985283603,Tendency towards co-occurrence
+Acute Myeloid Leukemia,GSTP1,RALBP1,0.436505532,0.720546155,Tendency towards co-occurrence
+Acute Myeloid Leukemia,PIK3CA,RALBP1,0.398431581,0.86081158,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,MYC,TP53,0.002688887,1.262793634,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,MYC,GSTA1,0.468987838,0.356674944,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,MYC,GSTM2,0.239742796,-1.107580959,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,MYC,GSTP1,0.529149719,0.216671037,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,MYC,PIK3CA,0.370192939,-0.286681572,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,MYC,RALBP1,0.184480142,-0.890240055,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,TP53,GSTA1,0.354612141,-0.482654747,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,TP53,GSTM2,0.314182235,-0.401795379,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,TP53,GSTP1,0.021123339,-1.702414369,Tendency towards mutual exclusivity(Significant)
+Colorectal Adenocarcinoma,TP53,PIK3CA,0.188669681,-0.364973747,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,TP53,RALBP1,0.319216306,0.311336263,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,GSTA1,GSTM2,0.521094073,0.428995606,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,GSTA1,GSTP1,0.616263295,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,GSTA1,PIK3CA,0.315444212,0.601579987,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,GSTA1,RALBP1,0.305792227,0.756061006,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,GSTM2,GSTP1,0.173501061,1.196250758,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,GSTM2,PIK3CA,0.315487138,-0.65090031,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,GSTM2,RALBP1,0.275195608,0.638087403,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,GSTP1,PIK3CA,0.384528298,0.440556428,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,GSTP1,RALBP1,0.645284117,-0.245122458,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,PIK3CA,RALBP1,0.55811022,-0.082238098,Tendency towards mutual exclusivity
+Breast Cancer (Cell),MYC,TP53,5.42E-15,1.351337968,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),MYC,GSTA1,0.052172426,0.883190783,Tendency towards co-occurrence
+Breast Cancer (Cell),MYC,GSTM2,0.26437299,0.387510483,Tendency towards co-occurrence
+Breast Cancer (Cell),MYC,GSTP1,0.442588298,0.085309249,Tendency towards co-occurrence
+Breast Cancer (Cell),MYC,PIK3CA,0.086175791,-0.255090119,Tendency towards mutual exclusivity
+Breast Cancer (Cell),MYC,RALBP1,0.057990926,0.481144172,Tendency towards co-occurrence
+Breast Cancer (Cell),TP53,GSTA1,0.000454313,1.693441236,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),TP53,GSTM2,0.022569771,0.917979446,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),TP53,GSTP1,0.482157901,0.045657002,Tendency towards co-occurrence
+Breast Cancer (Cell),TP53,PIK3CA,0.018232644,-0.325928935,Tendency towards mutual exclusivity(Significant)
+Breast Cancer (Cell),TP53,RALBP1,1.51E-05,1.093099436,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),GSTA1,GSTM2,0.546494331,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Cell),GSTA1,GSTP1,0.191338251,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Cell),GSTA1,PIK3CA,0.552152172,0.038890871,Tendency towards co-occurrence
+Breast Cancer (Cell),GSTA1,RALBP1,0.235218696,0.668788737,Tendency towards co-occurrence
+Breast Cancer (Cell),GSTM2,GSTP1,0.424861559,-0.68695521,Tendency towards mutual exclusivity
+Breast Cancer (Cell),GSTM2,PIK3CA,0.35917783,-0.257072823,Tendency towards mutual exclusivity
+Breast Cancer (Cell),GSTM2,RALBP1,0.044681042,1.096416898,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),GSTP1,PIK3CA,0.448123964,-0.073117589,Tendency towards mutual exclusivity
+Breast Cancer (Cell),GSTP1,RALBP1,0.538610058,-0.093193777,Tendency towards mutual exclusivity
+Breast Cancer (Cell),PIK3CA,RALBP1,0.185628334,-0.272039295,Tendency towards mutual exclusivity
+Breast Cancer (Nature),MYC,TP53,1.19E-05,1.084830149,Tendency towards co-occurrence(Significant)
+Breast Cancer (Nature),MYC,GSTA1,0.262522772,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),MYC,GSTM2,0.454118402,-0.292478245,Tendency towards mutual exclusivity
+Breast Cancer (Nature),MYC,GSTP1,0.219910721,-0.549388659,Tendency towards mutual exclusivity
+Breast Cancer (Nature),MYC,PIK3CA,0.381479879,-0.106965992,Tendency towards mutual exclusivity
+Breast Cancer (Nature),MYC,RALBP1,0.101349382,0.509107731,Tendency towards co-occurrence
+Breast Cancer (Nature),TP53,GSTA1,0.300374332,0.678548381,Tendency towards co-occurrence
+Breast Cancer (Nature),TP53,GSTM2,0.396135257,0.208048925,Tendency towards co-occurrence
+Breast Cancer (Nature),TP53,GSTP1,0.374577598,0.170625517,Tendency towards co-occurrence
+Breast Cancer (Nature),TP53,PIK3CA,0.02651283,-0.390294766,Tendency towards mutual exclusivity(Significant)
+Breast Cancer (Nature),TP53,RALBP1,0.000208514,1.090146388,Tendency towards co-occurrence(Significant)
+Breast Cancer (Nature),GSTA1,GSTM2,0.709595729,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),GSTA1,GSTP1,0.565263688,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),GSTA1,PIK3CA,0.116515553,-1.544899391,Tendency towards mutual exclusivity
+Breast Cancer (Nature),GSTA1,RALBP1,0.185730048,1.155770703,Tendency towards co-occurrence
+Breast Cancer (Nature),GSTM2,GSTP1,0.523917023,0.179867568,Tendency towards co-occurrence
+Breast Cancer (Nature),GSTM2,PIK3CA,0.324681675,-0.308877231,Tendency towards mutual exclusivity
+Breast Cancer (Nature),GSTM2,RALBP1,0.47157718,0.210857864,Tendency towards co-occurrence
+Breast Cancer (Nature),GSTP1,PIK3CA,0.229161374,-0.330523269,Tendency towards mutual exclusivity
+Breast Cancer (Nature),GSTP1,RALBP1,0.063526969,-1.579665754,Tendency towards mutual exclusivity
+Breast Cancer (Nature),PIK3CA,RALBP1,0.230980562,0.257059212,Tendency towards co-occurrence
+LGG+GBM,MYC,TP53,1.77E-05,2.042034365,Tendency towards co-occurrence(Significant)
+LGG+GBM,MYC,GSTA1,0.194006489,1.711314104,Tendency towards co-occurrence
+LGG+GBM,MYC,GSTM2,0.884256568,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,MYC,GSTP1,0.857393077,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,MYC,PIK3CA,0.643949193,-0.063469574,Tendency towards mutual exclusivity
+LGG+GBM,MYC,RALBP1,0.911925613,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,TP53,GSTA1,0.30236694,0.670959266,Tendency towards co-occurrence
+LGG+GBM,TP53,GSTM2,0.463243059,-0.724695538,Tendency towards mutual exclusivity
+LGG+GBM,TP53,GSTP1,0.3288453,0.787746881,Tendency towards co-occurrence
+LGG+GBM,TP53,PIK3CA,0.036217758,-0.512719564,Tendency towards mutual exclusivity(Significant)
+LGG+GBM,TP53,RALBP1,0.361650122,1.074438752,Tendency towards co-occurrence
+LGG+GBM,GSTA1,GSTM2,0.965134061,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTA1,GSTP1,0.956582241,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTA1,PIK3CA,0.522768595,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTA1,RALBP1,0.97375133,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTM2,GSTP1,0.975001187,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTM2,PIK3CA,0.690802612,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTM2,RALBP1,0.984943777,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTP1,PIK3CA,0.629592254,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,GSTP1,RALBP1,0.981203484,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,PIK3CA,RALBP1,0.757870827,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),MYC,TP53,0.420910837,0.28611835,Tendency towards co-occurrence
+Glioblastoma (Cell),MYC,GSTA1,0.219861806,1.658228077,Tendency towards co-occurrence
+Glioblastoma (Cell),MYC,GSTM2,0.637543924,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),MYC,GSTP1,0.741949611,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),MYC,PIK3CA,0.229534482,0.736239324,Tendency towards co-occurrence
+Glioblastoma (Cell),MYC,RALBP1,0.820145281,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),TP53,GSTA1,0.085276395,1.62924054,Tendency towards co-occurrence
+Glioblastoma (Cell),TP53,GSTM2,0.353002723,0.512362903,Tendency towards co-occurrence
+Glioblastoma (Cell),TP53,GSTP1,0.142338595,1.219240276,Tendency towards co-occurrence
+Glioblastoma (Cell),TP53,PIK3CA,0.43442457,0.144794324,Tendency towards co-occurrence
+Glioblastoma (Cell),TP53,RALBP1,0.040969274,2.326902401,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),GSTA1,GSTM2,0.146311867,2.161885211,Tendency towards co-occurrence
+Glioblastoma (Cell),GSTA1,GSTP1,0.900413193,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),GSTA1,PIK3CA,0.5244109,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),GSTA1,RALBP1,0.067316376,3.160540248,Tendency towards co-occurrence
+Glioblastoma (Cell),GSTM2,GSTP1,0.173176178,1.935138052,Tendency towards co-occurrence
+Glioblastoma (Cell),GSTM2,PIK3CA,0.310185005,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),GSTM2,RALBP1,0.881325519,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),GSTP1,PIK3CA,0.539765259,0.389654502,Tendency towards co-occurrence
+Glioblastoma (Cell),GSTP1,RALBP1,0.919639097,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),PIK3CA,RALBP1,0.597245747,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),MYC,TP53,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),MYC,GSTA1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),MYC,GSTM2,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),MYC,GSTP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),MYC,PIK3CA,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),MYC,RALBP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),TP53,GSTA1,0.351648352,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),TP53,GSTM2,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),TP53,GSTP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),TP53,PIK3CA,0.582491395,0.110862593,Tendency towards co-occurrence
+Glioblastoma (Nature),TP53,RALBP1,0.351648352,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),GSTA1,GSTM2,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),GSTA1,GSTP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),GSTA1,PIK3CA,0.912087912,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),GSTA1,RALBP1,0.989010989,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),GSTM2,GSTP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),GSTM2,PIK3CA,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),GSTM2,RALBP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),GSTP1,PIK3CA,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),GSTP1,RALBP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),PIK3CA,RALBP1,0.087912088,Infinity,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,MYC,TP53,0.312556115,0.221394897,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,MYC,GSTA1,0.421318194,-0.353863979,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,MYC,GSTM2,0.133474424,1.928815716,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,MYC,GSTP1,0.245384335,0.549359288,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,MYC,PIK3CA,0.154595091,-0.618423634,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,MYC,RALBP1,0.245384335,0.549359288,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,TP53,GSTA1,0.025392657,1.898262189,Tendency towards co-occurrence(Significant)
+Stomach +Esophageal Cancer,TP53,GSTM2,0.372771948,Infinity,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,TP53,GSTP1,0.412195788,-0.271243346,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,TP53,PIK3CA,0.333654219,-0.24323031,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,TP53,RALBP1,0.158405374,0.966684746,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,GSTA1,GSTM2,0.818989232,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,GSTA1,GSTP1,0.3596057,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,GSTA1,PIK3CA,0.330151869,-0.898458256,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,GSTA1,RALBP1,0.6403943,0.043675064,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,GSTM2,GSTP1,0.008708398,3.64565072,Tendency towards co-occurrence(Significant)
+Stomach +Esophageal Cancer,GSTM2,PIK3CA,0.661256188,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,GSTM2,RALBP1,0.160954549,2.181224236,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,GSTP1,PIK3CA,0.299215403,0.568790164,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,GSTP1,RALBP1,0.407082285,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,PIK3CA,RALBP1,0.598023324,0.046956983,Tendency towards co-occurrence
+Stomach Adenocarcinoma,MYC,TP53,0.108031706,0.423814247,Tendency towards co-occurrence
+Stomach Adenocarcinoma,MYC,GSTA1,0.018909009,#NAME?,Tendency towards mutual exclusivity(Significant)
+Stomach Adenocarcinoma,MYC,GSTM2,0.381564263,1.319283651,Tendency towards co-occurrence
+Stomach Adenocarcinoma,MYC,GSTP1,0.476621374,-0.215547204,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,MYC,PIK3CA,0.134571702,-0.442394077,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,MYC,RALBP1,0.366026749,0.238625915,Tendency towards co-occurrence
+Stomach Adenocarcinoma,TP53,GSTA1,0.337513507,0.350569386,Tendency towards co-occurrence
+Stomach Adenocarcinoma,TP53,GSTM2,0.230024432,Infinity,Tendency towards co-occurrence
+Stomach Adenocarcinoma,TP53,GSTP1,0.19510314,0.486508316,Tendency towards co-occurrence
+Stomach Adenocarcinoma,TP53,PIK3CA,0.000898001,-0.9027137,Tendency towards mutual exclusivity(Significant)
+Stomach Adenocarcinoma,TP53,RALBP1,0.335689529,0.231457802,Tendency towards co-occurrence
+Stomach Adenocarcinoma,GSTA1,GSTM2,0.879588574,#NAME?,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,GSTA1,GSTP1,0.404639099,0.461034959,Tendency towards co-occurrence
+Stomach Adenocarcinoma,GSTA1,PIK3CA,0.57573307,0.031441526,Tendency towards co-occurrence
+Stomach Adenocarcinoma,GSTA1,RALBP1,0.615598477,0.009478744,Tendency towards co-occurrence
+Stomach Adenocarcinoma,GSTM2,GSTP1,0.16357494,2.415063076,Tendency towards co-occurrence
+Stomach Adenocarcinoma,GSTM2,PIK3CA,0.480529665,#NAME?,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,GSTM2,RALBP1,0.766898923,#NAME?,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,GSTP1,PIK3CA,0.281295475,-0.44024419,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,GSTP1,RALBP1,0.283440532,0.501256173,Tendency towards co-occurrence
+Stomach Adenocarcinoma,PIK3CA,RALBP1,0.302786806,-0.317867049,Tendency towards mutual exclusivity
+Head and Neck Cancer,MYC,TP53,0.029961378,0.804433356,Tendency towards co-occurrence(Significant)
+Head and Neck Cancer,MYC,GSTA1,0.531570792,0.101303715,Tendency towards co-occurrence
+Head and Neck Cancer,MYC,GSTM2,0.171899212,-0.914298699,Tendency towards mutual exclusivity
+Head and Neck Cancer,MYC,GSTP1,0.355040734,0.209720531,Tendency towards co-occurrence
+Head and Neck Cancer,MYC,PIK3CA,0.272934305,-0.216793466,Tendency towards mutual exclusivity
+Head and Neck Cancer,MYC,RALBP1,0.282875735,0.347830919,Tendency towards co-occurrence
+Head and Neck Cancer,TP53,GSTA1,0.560871351,-0.057013539,Tendency towards mutual exclusivity
+Head and Neck Cancer,TP53,GSTM2,0.34120832,0.470003629,Tendency towards co-occurrence
+Head and Neck Cancer,TP53,GSTP1,0.08448808,0.707094408,Tendency towards co-occurrence
+Head and Neck Cancer,TP53,PIK3CA,0.268767003,0.217465844,Tendency towards co-occurrence
+Head and Neck Cancer,TP53,RALBP1,0.178228739,-0.490622916,Tendency towards mutual exclusivity
+Head and Neck Cancer,GSTA1,GSTM2,0.098928151,1.192297773,Tendency towards co-occurrence
+Head and Neck Cancer,GSTA1,GSTP1,0.216985461,-1.144717108,Tendency towards mutual exclusivity
+Head and Neck Cancer,GSTA1,PIK3CA,0.040735458,1.102282018,Tendency towards co-occurrence(Significant)
+Head and Neck Cancer,GSTA1,RALBP1,0.086062749,1.07052932,Tendency towards co-occurrence
+Head and Neck Cancer,GSTM2,GSTP1,0.0592335,0.991901334,Tendency towards co-occurrence
+Head and Neck Cancer,GSTM2,PIK3CA,0.43531406,0.195221091,Tendency towards co-occurrence
+Head and Neck Cancer,GSTM2,RALBP1,0.115339677,#NAME?,Tendency towards mutual exclusivity
+Head and Neck Cancer,GSTP1,PIK3CA,0.254969515,-0.270173208,Tendency towards mutual exclusivity
+Head and Neck Cancer,GSTP1,RALBP1,0.296409588,0.375265368,Tendency towards co-occurrence
+Head and Neck Cancer,PIK3CA,RALBP1,0.120113135,-0.540899801,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,MYC,TP53,0.175547356,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,MYC,GSTA1,0.586346033,0.191350964,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,MYC,GSTM2,0.389515008,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,MYC,GSTP1,0.389515008,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,MYC,PIK3CA,0.53443066,0.162001554,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,MYC,RALBP1,0.412718921,-0.720947069,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,TP53,GSTA1,0.693841215,-0.116189918,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,TP53,GSTM2,0.665248858,-0.188052232,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,TP53,GSTP1,0.334751142,0.613324907,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,TP53,PIK3CA,0.06706334,0.993370474,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,TP53,RALBP1,0.529529541,-0.266307213,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,GSTA1,GSTM2,0.471009104,0.544536681,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,GSTA1,GSTP1,0.471009104,0.544536681,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,GSTA1,PIK3CA,0.283833061,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,GSTA1,RALBP1,0.620171629,-0.294923234,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,GSTM2,GSTP1,0.022618445,1.863116408,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,GSTM2,PIK3CA,0.260494003,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,GSTM2,RALBP1,0.152896847,0.943220144,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,GSTP1,PIK3CA,0.633918933,-0.262808808,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,GSTP1,RALBP1,0.040637001,1.346629105,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,PIK3CA,RALBP1,0.276144304,0.491378489,Tendency towards co-occurrence
+Kidney Chromophobe Cancer,MYC,TP53,0.554761759,0.287682072,Tendency towards co-occurrence
+Kidney Chromophobe Cancer,MYC,GSTA1,0.850961538,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,MYC,GSTM2,0.076923077,Infinity,Tendency towards co-occurrence
+Kidney Chromophobe Cancer,MYC,GSTP1,0.149038462,2.691243083,Tendency towards co-occurrence
+Kidney Chromophobe Cancer,MYC,PIK3CA,0.923076923,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,MYC,RALBP1,0.149038462,2.691243083,Tendency towards co-occurrence
+Kidney Chromophobe Cancer,TP53,GSTA1,0.434134615,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,TP53,GSTM2,0.661538462,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,TP53,GSTP1,0.434134615,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,TP53,PIK3CA,0.661538462,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,TP53,RALBP1,0.434134615,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTA1,GSTM2,0.969230769,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTA1,GSTP1,0.938942308,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTA1,PIK3CA,0.969230769,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTA1,RALBP1,0.938942308,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTM2,GSTP1,0.969230769,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTM2,PIK3CA,0.984615385,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTM2,RALBP1,0.030769231,Infinity,Tendency towards co-occurrence(Significant)
+Kidney Chromophobe Cancer,GSTP1,PIK3CA,0.969230769,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,GSTP1,RALBP1,0.938942308,#NAME?,Tendency towards mutual exclusivity
+Kidney Chromophobe Cancer,PIK3CA,RALBP1,0.969230769,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,MYC,TP53,0.281385688,0.342258174,Tendency towards co-occurrence
+Lung Adenocarcinoma,MYC,GSTA1,0.591859282,0.21190046,Tendency towards co-occurrence
+Lung Adenocarcinoma,MYC,GSTM2,0.42658877,0.78647912,Tendency towards co-occurrence
+Lung Adenocarcinoma,MYC,GSTP1,0.42658877,0.78647912,Tendency towards co-occurrence
+Lung Adenocarcinoma,MYC,PIK3CA,0.409617869,0.340759489,Tendency towards co-occurrence
+Lung Adenocarcinoma,MYC,RALBP1,0.717386308,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,TP53,GSTA1,0.020574651,2.144761008,Tendency towards co-occurrence(Significant)
+Lung Adenocarcinoma,TP53,GSTM2,0.565578414,-0.271933715,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,TP53,GSTP1,0.565578414,-0.271933715,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,TP53,PIK3CA,1.54E-01,0.560628446,Tendency towards co-occurrence
+Lung Adenocarcinoma,TP53,RALBP1,0.552317808,-0.560795729,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,GSTA1,GSTM2,0.83644247,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,GSTA1,GSTP1,0.83644247,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,GSTA1,PIK3CA,0.031182299,1.857941376,Tendency towards co-occurrence(Significant)
+Lung Adenocarcinoma,GSTA1,RALBP1,0.898813866,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,GSTM2,GSTP1,0.895051832,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,GSTM2,PIK3CA,0.397922403,0.887303195,Tendency towards co-occurrence
+Lung Adenocarcinoma,GSTM2,RALBP1,0.935916781,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,GSTP1,PIK3CA,0.602077597,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,GSTP1,RALBP1,0.935916781,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,PIK3CA,RALBP1,0.26141117,1.590206551,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,MYC,TP53,0.29371338,Infinity,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,MYC,GSTA1,0.33831625,-0.893168314,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,MYC,GSTM2,0.29402261,0.596154915,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,MYC,GSTP1,0.484027232,0.301475395,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,MYC,PIK3CA,0.26383198,-0.423814247,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,MYC,RALBP1,0.515972768,-0.532654594,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,TP53,GSTA1,0.289568443,-0.797772132,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,TP53,GSTM2,0.356461179,Infinity,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,TP53,GSTP1,0.431025502,Infinity,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,TP53,PIK3CA,0.611653855,-0.072657646,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,TP53,RALBP1,0.568974498,-0.281251182,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,GSTA1,GSTM2,0.566284524,0.121696935,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,GSTA1,GSTP1,0.046742113,1.379605373,Tendency towards co-occurrence(Significant)
+Lung Squamous Cell Carcinoma,GSTA1,PIK3CA,0.093637804,0.980829253,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,GSTA1,RALBP1,0.544727544,-0.471714494,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,GSTM2,GSTP1,0.395722766,0.504136636,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,GSTM2,PIK3CA,0.011096091,2.116482813,Tendency towards co-occurrence(Significant)
+Lung Squamous Cell Carcinoma,GSTM2,RALBP1,0.604277234,-0.340325806,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,GSTP1,PIK3CA,0.124074192,1.08026315,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,GSTP1,RALBP1,0.303331748,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,PIK3CA,RALBP1,0.302857505,0.560044696,Tendency towards co-occurrence
+Ovarian Serous Cancer,MYC,TP53,0.049194835,1.758550798,Tendency towards co-occurrence(Significant)
+Ovarian Serous Cancer,MYC,GSTA1,0.264035226,0.45687063,Tendency towards co-occurrence
+Ovarian Serous Cancer,MYC,GSTM2,0.160214647,0.541597282,Tendency towards co-occurrence
+Ovarian Serous Cancer,MYC,GSTP1,0.418778293,-0.166148698,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,MYC,PIK3CA,0.151457661,0.278359629,Tendency towards co-occurrence
+Ovarian Serous Cancer,MYC,RALBP1,0.167311172,-0.463837114,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,TP53,GSTA1,0.117945108,-1.421385681,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,TP53,GSTM2,0.586038884,-0.203029187,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,TP53,GSTP1,0.259618369,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,TP53,PIK3CA,0.018277525,2.038823204,Tendency towards co-occurrence(Significant)
+Ovarian Serous Cancer,TP53,RALBP1,0.593806061,0.358531955,Tendency towards co-occurrence
+Ovarian Serous Cancer,GSTA1,GSTM2,0.307830088,0.693147181,Tendency towards co-occurrence
+Ovarian Serous Cancer,GSTA1,GSTP1,0.485785077,-0.582799123,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,GSTA1,PIK3CA,0.468529736,0.16805911,Tendency towards co-occurrence
+Ovarian Serous Cancer,GSTA1,RALBP1,0.43562513,-0.683668437,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,GSTM2,GSTP1,0.409431018,0.328925031,Tendency towards co-occurrence
+Ovarian Serous Cancer,GSTM2,PIK3CA,0.109914929,0.639079959,Tendency towards co-occurrence
+Ovarian Serous Cancer,GSTM2,RALBP1,0.469468914,0.222186155,Tendency towards co-occurrence
+Ovarian Serous Cancer,GSTP1,PIK3CA,0.2690176,-0.31411533,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,GSTP1,RALBP1,0.155774968,0.62811471,Tendency towards co-occurrence
+Ovarian Serous Cancer,PIK3CA,RALBP1,0.079897293,-0.609235208,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,MYC,TP53,0.013529106,0.996156589,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,MYC,GSTA1,0.538854689,0.389960922,Tendency towards co-occurrence
+Prostate Adenocarcinoma,MYC,GSTM2,0.307570863,-0.937162306,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,MYC,GSTP1,0.210731683,0.565166218,Tendency towards co-occurrence
+Prostate Adenocarcinoma,MYC,PIK3CA,0.001365916,1.683545885,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,MYC,RALBP1,0.001118363,2.133121691,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,TP53,GSTA1,0.398361266,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,TP53,GSTM2,0.220304576,-1.128026174,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,TP53,GSTP1,0.080440653,-1.526056303,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,TP53,PIK3CA,0.408030764,-0.47070563,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,TP53,RALBP1,0.475316433,-0.609765572,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,GSTA1,GSTM2,0.040384979,2.210211773,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,GSTA1,GSTP1,0.0004663,3.274680666,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,GSTA1,PIK3CA,0.325580287,1.121677562,Tendency towards co-occurrence
+Prostate Adenocarcinoma,GSTA1,RALBP1,0.800986444,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,GSTM2,GSTP1,0.012620987,1.556091932,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,GSTM2,PIK3CA,0.659586047,-0.202524264,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,GSTM2,RALBP1,0.488078415,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,GSTP1,PIK3CA,0.078627357,1.084013489,Tendency towards co-occurrence
+Prostate Adenocarcinoma,GSTP1,RALBP1,0.643923191,0.030983546,Tendency towards co-occurrence
+Prostate Adenocarcinoma,PIK3CA,RALBP1,0.170631207,1.156550126,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,MYC,TP53,0.614444008,0.108213585,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,MYC,GSTA1,0.573332012,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,MYC,GSTM2,0.681775668,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,MYC,GSTP1,0.426667988,0.693147181,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,MYC,PIK3CA,0.19648883,1.033015006,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,MYC,RALBP1,0.502851999,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,TP53,GSTA1,0.163913166,1.171637424,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,TP53,GSTM2,0.411989544,0.756569007,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,TP53,GSTP1,0.003985261,2.176433808,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,TP53,PIK3CA,0.301817701,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,TP53,RALBP1,0.614444008,0.108213585,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,GSTA1,GSTM2,0.266537582,1.341013657,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,GSTA1,GSTP1,0.065660677,1.794510503,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,GSTA1,PIK3CA,0.497000632,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,GSTA1,RALBP1,0.426667988,0.693147181,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,GSTM2,GSTP1,0.002209578,2.91506437,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,GSTM2,PIK3CA,0.07314304,1.745743232,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,GSTM2,RALBP1,6.99E-06,3.733331217,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,GSTP1,PIK3CA,0.024112441,1.843346838,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,GSTP1,RALBP1,0.012824272,2.12272205,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,PIK3CA,RALBP1,0.04269517,1.572567377,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,MYC,TP53,3.58E-06,1.732336049,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,MYC,GSTA1,0.529886904,0.131691466,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,MYC,GSTM2,0.514604053,-0.302761179,Tendency towards mutual exclusivity
+Uterine Corpus Endometrial Cancer,MYC,GSTP1,0.187018429,0.583817281,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,MYC,PIK3CA,0.099965948,0.560543002,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,MYC,RALBP1,0.004012029,1.424459769,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,TP53,GSTA1,0.247636031,0.47957308,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,TP53,GSTM2,0.081034593,0.864997437,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,TP53,GSTP1,6.18E-05,1.770319138,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,TP53,PIK3CA,0.144097372,0.354518775,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,TP53,RALBP1,1.17E-06,2.335374916,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,GSTA1,GSTM2,0.283516296,#NAME?,Tendency towards mutual exclusivity
+Uterine Corpus Endometrial Cancer,GSTA1,GSTP1,0.271832353,0.631202695,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,GSTA1,PIK3CA,0.573172132,-0.029447201,Tendency towards mutual exclusivity
+Uterine Corpus Endometrial Cancer,GSTA1,RALBP1,0.002931776,1.848917883,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,GSTM2,GSTP1,0.078152172,1.129864832,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,GSTM2,PIK3CA,0.147340302,0.762140052,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,GSTM2,RALBP1,0.513475906,-0.531234495,Tendency towards mutual exclusivity
+Uterine Corpus Endometrial Cancer,GSTP1,PIK3CA,0.432489547,-0.160278901,Tendency towards mutual exclusivity
+Uterine Corpus Endometrial Cancer,GSTP1,RALBP1,0.223438534,0.633774907,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,PIK3CA,RALBP1,0.012819385,1.278830795,Tendency towards co-occurrence(Significant)
