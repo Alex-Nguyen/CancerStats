@@ -1,0 +1,533 @@
+Cancer,geneA,geneB,p-Value,Log Odds Ratio,Association
+Pan-Lung,PTPN6,COL18A1,0.406807407,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,PTPN6,FOXO4,0.607734412,0.101352494,Tendency towards co-occurrence
+Pan-Lung,PTPN6,CUX2,0.44814363,0.227088965,Tendency towards co-occurrence
+Pan-Lung,PTPN6,ARHGEF10L,0.70417327,-0.085613753,Tendency towards mutual exclusivity
+Pan-Lung,PTPN6,TIAM1,0.612852096,-0.053601347,Tendency towards mutual exclusivity
+Pan-Lung,PTPN6,ZBTB33,0.339001306,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,PTPN6,RALBP1,0.49424551,0.436323096,Tendency towards co-occurrence
+Pan-Lung,COL18A1,FOXO4,0.440619886,0.600666328,Tendency towards co-occurrence
+Pan-Lung,COL18A1,CUX2,0.540618595,-0.455614892,Tendency towards mutual exclusivity
+Pan-Lung,COL18A1,ARHGEF10L,0.499470361,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,COL18A1,TIAM1,0.010459552,1.358660397,Tendency towards co-occurrence(Significant)
+Pan-Lung,COL18A1,ZBTB33,0.137501481,1.22029844,Tendency towards co-occurrence
+Pan-Lung,COL18A1,RALBP1,0.062481718,1.72932161,Tendency towards co-occurrence
+Pan-Lung,FOXO4,CUX2,0.069169387,1.064045559,Tendency towards co-occurrence
+Pan-Lung,FOXO4,ARHGEF10L,0.154605126,1.140812643,Tendency towards co-occurrence
+Pan-Lung,FOXO4,TIAM1,0.664127486,-0.024929383,Tendency towards mutual exclusivity
+Pan-Lung,FOXO4,ZBTB33,0.49723859,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,FOXO4,RALBP1,0.643833321,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,CUX2,ARHGEF10L,0.293794426,0.514443804,Tendency towards co-occurrence
+Pan-Lung,CUX2,TIAM1,0.006280982,0.97150207,Tendency towards co-occurrence(Significant)
+Pan-Lung,CUX2,ZBTB33,0.03191439,1.171767426,Tendency towards co-occurrence(Significant)
+Pan-Lung,CUX2,RALBP1,0.674084985,-0.162234798,Tendency towards mutual exclusivity
+Pan-Lung,ARHGEF10L,TIAM1,0.222409029,0.570507409,Tendency towards co-occurrence
+Pan-Lung,ARHGEF10L,ZBTB33,0.566096771,0.21991997,Tendency towards co-occurrence
+Pan-Lung,ARHGEF10L,RALBP1,0.590861311,#NAME?,Tendency towards mutual exclusivity
+Pan-Lung,TIAM1,ZBTB33,0.424693918,0.271264514,Tendency towards co-occurrence
+Pan-Lung,TIAM1,RALBP1,0.448415995,0.32668423,Tendency towards co-occurrence
+Pan-Lung,ZBTB33,RALBP1,0.601113699,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,PTPN6,COL18A1,0.568565132,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,PTPN6,FOXO4,0.819362681,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,PTPN6,CUX2,0.666775682,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,PTPN6,ARHGEF10L,0.180637319,2.04553999,Tendency towards co-occurrence
+Bladder Uroethelial,PTPN6,TIAM1,0.695484446,-0.125769387,Tendency towards mutual exclusivity
+Bladder Uroethelial,PTPN6,ZBTB33,0.367417943,1.020650747,Tendency towards co-occurrence
+Bladder Uroethelial,PTPN6,RALBP1,0.636316149,0.115310847,Tendency towards co-occurrence
+Bladder Uroethelial,COL18A1,FOXO4,0.688537591,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,COL18A1,CUX2,0.532093814,0.424333592,Tendency towards co-occurrence
+Bladder Uroethelial,COL18A1,ARHGEF10L,0.688537591,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,COL18A1,TIAM1,0.672789011,-0.016000341,Tendency towards mutual exclusivity
+Bladder Uroethelial,COL18A1,ZBTB33,0.423915006,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,COL18A1,RALBP1,0.476306163,-0.628608659,Tendency towards mutual exclusivity
+Bladder Uroethelial,FOXO4,CUX2,0.764979686,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,FOXO4,ARHGEF10L,0.12340509,2.573460047,Tendency towards co-occurrence
+Bladder Uroethelial,FOXO4,TIAM1,0.56150959,0.405465108,Tendency towards co-occurrence
+Bladder Uroethelial,FOXO4,ZBTB33,0.738826534,#NAME?,Tendency towards mutual exclusivity
+Bladder Uroethelial,FOXO4,RALBP1,0.487411229,0.645744942,Tendency towards co-occurrence
+Bladder Uroethelial,CUX2,ARHGEF10L,0.235020314,1.691676011,Tendency towards co-occurrence
+Bladder Uroethelial,CUX2,TIAM1,0.452432377,0.421213465,Tendency towards co-occurrence
+Bladder Uroethelial,CUX2,ZBTB33,0.459859075,0.665996191,Tendency towards co-occurrence
+Bladder Uroethelial,CUX2,RALBP1,0.650082941,-0.241162057,Tendency towards mutual exclusivity
+Bladder Uroethelial,ARHGEF10L,TIAM1,0.56150959,0.405465108,Tendency towards co-occurrence
+Bladder Uroethelial,ARHGEF10L,ZBTB33,0.261173466,1.549333988,Tendency towards co-occurrence
+Bladder Uroethelial,ARHGEF10L,RALBP1,0.487411229,0.645744942,Tendency towards co-occurrence
+Bladder Uroethelial,TIAM1,ZBTB33,0.214772294,0.875468737,Tendency towards co-occurrence
+Bladder Uroethelial,TIAM1,RALBP1,0.250617892,0.557345639,Tendency towards co-occurrence
+Bladder Uroethelial,ZBTB33,RALBP1,0.589517445,-0.384845821,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,PTPN6,COL18A1,0.398431581,0.86081158,Tendency towards co-occurrence
+Acute Myeloid Leukemia,PTPN6,FOXO4,0.740049573,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,PTPN6,CUX2,0.633867394,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,PTPN6,ARHGEF10L,0.075441826,1.832581464,Tendency towards co-occurrence
+Acute Myeloid Leukemia,PTPN6,TIAM1,0.429281244,0.748717032,Tendency towards co-occurrence
+Acute Myeloid Leukemia,PTPN6,ZBTB33,0.049338835,2.133508763,Tendency towards co-occurrence(Significant)
+Acute Myeloid Leukemia,PTPN6,RALBP1,0.398431581,0.86081158,Tendency towards co-occurrence
+Acute Myeloid Leukemia,COL18A1,FOXO4,0.315261719,1.210617347,Tendency towards co-occurrence
+Acute Myeloid Leukemia,COL18A1,CUX2,0.436505532,0.720546155,Tendency towards co-occurrence
+Acute Myeloid Leukemia,COL18A1,ARHGEF10L,0.472396899,0.595983432,Tendency towards co-occurrence
+Acute Myeloid Leukemia,COL18A1,TIAM1,0.020303713,2.070472872,Tendency towards co-occurrence(Significant)
+Acute Myeloid Leukemia,COL18A1,ZBTB33,0.007613977,2.560544064,Tendency towards co-occurrence(Significant)
+Acute Myeloid Leukemia,COL18A1,RALBP1,0.472396899,0.595983432,Tendency towards co-occurrence
+Acute Myeloid Leukemia,FOXO4,CUX2,0.711946424,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,FOXO4,ARHGEF10L,0.684738281,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,FOXO4,TIAM1,0.658402193,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,FOXO4,ZBTB33,0.740049573,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,FOXO4,RALBP1,0.315261719,1.210617347,Tendency towards co-occurrence
+Acute Myeloid Leukemia,CUX2,ARHGEF10L,0.436505532,0.720546155,Tendency towards co-occurrence
+Acute Myeloid Leukemia,CUX2,TIAM1,0.530985172,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,CUX2,ZBTB33,0.061876256,1.972757399,Tendency towards co-occurrence
+Acute Myeloid Leukemia,CUX2,RALBP1,0.436505532,0.720546155,Tendency towards co-occurrence
+Acute Myeloid Leukemia,ARHGEF10L,TIAM1,0.493782389,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,ARHGEF10L,ZBTB33,0.398431581,0.86081158,Tendency towards co-occurrence
+Acute Myeloid Leukemia,ARHGEF10L,RALBP1,0.527603101,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,TIAM1,ZBTB33,0.570718756,#NAME?,Tendency towards mutual exclusivity
+Acute Myeloid Leukemia,TIAM1,RALBP1,0.506217611,0.483796951,Tendency towards co-occurrence
+Acute Myeloid Leukemia,ZBTB33,RALBP1,0.398431581,0.86081158,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,PTPN6,COL18A1,0.289283484,0.780158558,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,PTPN6,FOXO4,0.772418469,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,PTPN6,CUX2,0.004794203,2.262919837,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,PTPN6,ARHGEF10L,0.321773382,0.687177014,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,PTPN6,TIAM1,0.171693715,0.925479158,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,PTPN6,ZBTB33,0.018112116,3.235873401,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,PTPN6,RALBP1,0.000978375,2.003068563,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,COL18A1,FOXO4,0.812136104,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,COL18A1,CUX2,0.493127002,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,COL18A1,ARHGEF10L,0.63245803,0.080042708,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,COL18A1,TIAM1,0.342055044,0.634650974,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,COL18A1,ZBTB33,0.812136104,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,COL18A1,RALBP1,0.012169396,1.679307592,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,FOXO4,CUX2,0.146807575,2.319114395,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,FOXO4,ARHGEF10L,0.201250755,1.929289268,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,FOXO4,TIAM1,0.253327197,1.638425449,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,FOXO4,ZBTB33,0.954321145,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,FOXO4,RALBP1,0.672880722,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,CUX2,ARHGEF10L,0.154639424,1.282090584,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,CUX2,TIAM1,0.007644121,2.097141119,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,CUX2,ZBTB33,0.853192425,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,CUX2,RALBP1,0.110097602,1.20804613,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,ARHGEF10L,TIAM1,0.378097142,0.541597282,Tendency towards co-occurrence
+Colorectal Adenocarcinoma,ARHGEF10L,ZBTB33,0.798749245,#NAME?,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,ARHGEF10L,RALBP1,0.000347585,2.266653084,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,TIAM1,ZBTB33,0.022925304,3.091042453,Tendency towards co-occurrence(Significant)
+Colorectal Adenocarcinoma,TIAM1,RALBP1,0.613868496,-0.127058878,Tendency towards mutual exclusivity
+Colorectal Adenocarcinoma,ZBTB33,RALBP1,0.327119278,1.301257318,Tendency towards co-occurrence
+Breast Cancer (Cell),PTPN6,COL18A1,0.584084577,-0.168528235,Tendency towards mutual exclusivity
+Breast Cancer (Cell),PTPN6,FOXO4,0.618570033,-0.108633841,Tendency towards mutual exclusivity
+Breast Cancer (Cell),PTPN6,CUX2,0.522247779,0.170499818,Tendency towards co-occurrence
+Breast Cancer (Cell),PTPN6,ARHGEF10L,0.030034628,1.076989825,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),PTPN6,TIAM1,0.323624453,0.379862071,Tendency towards co-occurrence
+Breast Cancer (Cell),PTPN6,ZBTB33,0.005105583,1.134509898,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),PTPN6,RALBP1,0.013054382,0.925769476,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),COL18A1,FOXO4,0.49095148,-0.555569929,Tendency towards mutual exclusivity
+Breast Cancer (Cell),COL18A1,CUX2,0.621273001,-0.285349127,Tendency towards mutual exclusivity
+Breast Cancer (Cell),COL18A1,ARHGEF10L,0.008117342,1.411704077,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),COL18A1,TIAM1,0.623452612,-0.099888546,Tendency towards mutual exclusivity
+Breast Cancer (Cell),COL18A1,ZBTB33,0.194329873,0.559476133,Tendency towards co-occurrence
+Breast Cancer (Cell),COL18A1,RALBP1,0.391146754,0.238001589,Tendency towards co-occurrence
+Breast Cancer (Cell),FOXO4,CUX2,0.646821505,-0.2271197,Tendency towards mutual exclusivity
+Breast Cancer (Cell),FOXO4,ARHGEF10L,0.462591991,-0.610909082,Tendency towards mutual exclusivity
+Breast Cancer (Cell),FOXO4,TIAM1,0.14688396,0.761946235,Tendency towards co-occurrence
+Breast Cancer (Cell),FOXO4,ZBTB33,0.580871837,0.016901811,Tendency towards co-occurrence
+Breast Cancer (Cell),FOXO4,RALBP1,0.442895002,-0.296634684,Tendency towards mutual exclusivity
+Breast Cancer (Cell),CUX2,ARHGEF10L,0.238884655,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Cell),CUX2,TIAM1,0.511760063,-0.515129019,Tendency towards mutual exclusivity
+Breast Cancer (Cell),CUX2,ZBTB33,0.191196412,0.651277459,Tendency towards co-occurrence
+Breast Cancer (Cell),CUX2,RALBP1,0.402067077,-0.46536325,Tendency towards mutual exclusivity
+Breast Cancer (Cell),ARHGEF10L,TIAM1,0.00580892,1.361753252,Tendency towards co-occurrence(Significant)
+Breast Cancer (Cell),ARHGEF10L,ZBTB33,0.224924939,0.497838428,Tendency towards co-occurrence
+Breast Cancer (Cell),ARHGEF10L,RALBP1,0.563385938,-0.088455421,Tendency towards mutual exclusivity
+Breast Cancer (Cell),TIAM1,ZBTB33,0.550857397,0.041574757,Tendency towards co-occurrence
+Breast Cancer (Cell),TIAM1,RALBP1,0.122074089,0.569094532,Tendency towards co-occurrence
+Breast Cancer (Cell),ZBTB33,RALBP1,0.289013372,0.274611427,Tendency towards co-occurrence
+Breast Cancer (Nature),PTPN6,COL18A1,0.636230167,-0.078893942,Tendency towards mutual exclusivity
+Breast Cancer (Nature),PTPN6,FOXO4,0.806267448,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),PTPN6,CUX2,0.806267448,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),PTPN6,ARHGEF10L,0.423290182,0.288793801,Tendency towards co-occurrence
+Breast Cancer (Nature),PTPN6,TIAM1,0.095299441,0.976762554,Tendency towards co-occurrence
+Breast Cancer (Nature),PTPN6,ZBTB33,0.930885529,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),PTPN6,RALBP1,0.489006625,-0.237907172,Tendency towards mutual exclusivity
+Breast Cancer (Nature),COL18A1,FOXO4,0.811905682,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),COL18A1,CUX2,0.811905682,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),COL18A1,ARHGEF10L,0.066539081,0.982982106,Tendency towards co-occurrence
+Breast Cancer (Nature),COL18A1,TIAM1,0.248352653,0.644628719,Tendency towards co-occurrence
+Breast Cancer (Nature),COL18A1,ZBTB33,0.933045356,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),COL18A1,RALBP1,0.515639372,-0.200194618,Tendency towards mutual exclusivity
+Breast Cancer (Nature),FOXO4,CUX2,0.980645643,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),FOXO4,ARHGEF10L,0.79506941,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),FOXO4,TIAM1,0.008799758,3.592735594,Tendency towards co-occurrence(Significant)
+Breast Cancer (Nature),FOXO4,ZBTB33,0.993520518,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),FOXO4,RALBP1,0.693814602,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),CUX2,ARHGEF10L,0.79506941,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),CUX2,TIAM1,0.840491433,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),CUX2,ZBTB33,0.993520518,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),CUX2,RALBP1,0.306185398,1.366876275,Tendency towards co-occurrence
+Breast Cancer (Nature),ARHGEF10L,TIAM1,0.585815427,0.053244515,Tendency towards co-occurrence
+Breast Cancer (Nature),ARHGEF10L,ZBTB33,0.926565875,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),ARHGEF10L,RALBP1,0.029362554,0.965325066,Tendency towards co-occurrence(Significant)
+Breast Cancer (Nature),TIAM1,ZBTB33,0.943844492,#NAME?,Tendency towards mutual exclusivity
+Breast Cancer (Nature),TIAM1,RALBP1,0.020204688,1.141537333,Tendency towards co-occurrence(Significant)
+Breast Cancer (Nature),ZBTB33,RALBP1,0.885529158,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,PTPN6,COL18A1,0.798666298,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,PTPN6,FOXO4,0.851825589,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,PTPN6,CUX2,0.320663733,1.054734282,Tendency towards co-occurrence
+LGG+GBM,PTPN6,ARHGEF10L,0.879663027,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,PTPN6,TIAM1,0.798666298,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,PTPN6,ZBTB33,0.879663027,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,PTPN6,RALBP1,0.908372656,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,COL18A1,FOXO4,0.956582241,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,COL18A1,CUX2,0.898517453,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,COL18A1,ARHGEF10L,0.965134061,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,COL18A1,TIAM1,0.001371541,4.136126096,Tendency towards co-occurrence(Significant)
+LGG+GBM,COL18A1,ZBTB33,0.965134061,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,COL18A1,RALBP1,0.97375133,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,FOXO4,CUX2,0.926503359,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,FOXO4,ARHGEF10L,0.975001187,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,FOXO4,TIAM1,0.956582241,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,FOXO4,ZBTB33,0.024998813,4.182050143,Tendency towards co-occurrence(Significant)
+LGG+GBM,FOXO4,RALBP1,0.981203484,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,CUX2,ARHGEF10L,0.059206101,3.161503484,Tendency towards co-occurrence
+LGG+GBM,CUX2,TIAM1,0.898517453,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,CUX2,ZBTB33,0.940793899,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,CUX2,RALBP1,0.955286231,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,ARHGEF10L,TIAM1,0.965134061,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,ARHGEF10L,ZBTB33,0.979963025,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,ARHGEF10L,RALBP1,0.984943777,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,TIAM1,ZBTB33,0.965134061,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,TIAM1,RALBP1,0.97375133,#NAME?,Tendency towards mutual exclusivity
+LGG+GBM,ZBTB33,RALBP1,0.984943777,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),PTPN6,COL18A1,0.394107193,0.828813046,Tendency towards co-occurrence
+Glioblastoma (Cell),PTPN6,FOXO4,0.24665656,1.46999338,Tendency towards co-occurrence
+Glioblastoma (Cell),PTPN6,CUX2,0.323991761,1.102309151,Tendency towards co-occurrence
+Glioblastoma (Cell),PTPN6,ARHGEF10L,0.02040358,2.624668592,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),PTPN6,TIAM1,0.02040358,2.624668592,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),PTPN6,ZBTB33,0.780837726,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),PTPN6,RALBP1,0.868824448,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),COL18A1,FOXO4,0.670724649,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),COL18A1,CUX2,0.575705977,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),COL18A1,ARHGEF10L,0.705502964,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),COL18A1,TIAM1,0.294497036,1.245409994,Tendency towards co-occurrence
+Glioblastoma (Cell),COL18A1,ZBTB33,0.705502964,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),COL18A1,RALBP1,0.820145281,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),FOXO4,CUX2,0.002045473,3.026503932,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),FOXO4,ARHGEF10L,0.012995755,2.919570913,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),FOXO4,TIAM1,0.178978451,1.886347888,Tendency towards co-occurrence
+Glioblastoma (Cell),FOXO4,ZBTB33,0.012995755,2.919570913,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),FOXO4,RALBP1,0.89396101,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),CUX2,ARHGEF10L,0.024647538,2.503255788,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),CUX2,TIAM1,0.238613747,1.518783544,Tendency towards co-occurrence
+Glioblastoma (Cell),CUX2,ZBTB33,0.761386253,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),CUX2,RALBP1,0.85645684,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),ARHGEF10L,TIAM1,0.00986119,3.105483138,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),ARHGEF10L,ZBTB33,0.000288969,3.96081317,Tendency towards co-occurrence(Significant)
+Glioblastoma (Cell),ARHGEF10L,RALBP1,0.906731882,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),TIAM1,ZBTB33,0.158230614,2.044102175,Tendency towards co-occurrence
+Glioblastoma (Cell),TIAM1,RALBP1,0.906731882,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Cell),ZBTB33,RALBP1,0.093268118,2.747982911,Tendency towards co-occurrence
+Glioblastoma (Nature),PTPN6,COL18A1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),PTPN6,FOXO4,0.978021978,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),PTPN6,CUX2,0.956288156,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),PTPN6,ARHGEF10L,0.956288156,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),PTPN6,TIAM1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),PTPN6,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),PTPN6,RALBP1,0.978021978,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),COL18A1,FOXO4,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),COL18A1,CUX2,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),COL18A1,ARHGEF10L,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),COL18A1,TIAM1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),COL18A1,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),COL18A1,RALBP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),FOXO4,CUX2,0.978021978,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),FOXO4,ARHGEF10L,0.978021978,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),FOXO4,TIAM1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),FOXO4,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),FOXO4,RALBP1,0.989010989,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),CUX2,ARHGEF10L,0.956288156,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),CUX2,TIAM1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),CUX2,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),CUX2,RALBP1,0.978021978,#NAME?,Tendency towards mutual exclusivity
+Glioblastoma (Nature),ARHGEF10L,TIAM1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),ARHGEF10L,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),ARHGEF10L,RALBP1,0.021978022,Infinity,Tendency towards co-occurrence(Significant)
+Glioblastoma (Nature),TIAM1,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),TIAM1,RALBP1,1,Infinity,Tendency towards co-occurrence
+Glioblastoma (Nature),ZBTB33,RALBP1,1,Infinity,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,PTPN6,COL18A1,0.223899522,1.642227735,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,PTPN6,FOXO4,0.962550029,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,PTPN6,CUX2,0.208252335,1.733263263,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,PTPN6,ARHGEF10L,0.807646213,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,PTPN6,TIAM1,0.701531048,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,PTPN6,ZBTB33,0.891015771,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,PTPN6,RALBP1,0.745548239,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,COL18A1,FOXO4,0.904116638,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,COL18A1,CUX2,0.460359171,0.601995011,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,COL18A1,ARHGEF10L,0.568750085,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,COL18A1,TIAM1,0.049080872,1.556037136,Tendency towards co-occurrence(Significant)
+Stomach +Esophageal Cancer,COL18A1,ZBTB33,0.262704546,1.415043774,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,COL18A1,RALBP1,0.539641553,0.348306694,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,FOXO4,CUX2,0.911320755,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,FOXO4,ARHGEF10L,0.918553459,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,FOXO4,TIAM1,0.868524871,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,FOXO4,ZBTB33,0.955145798,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,FOXO4,RALBP1,0.889794168,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,CUX2,ARHGEF10L,0.082403763,1.690505736,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,CUX2,TIAM1,0.039445013,1.665608184,Tendency towards co-occurrence(Significant)
+Stomach +Esophageal Cancer,CUX2,ZBTB33,0.244794535,1.506095561,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,CUX2,RALBP1,0.489372635,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,ARHGEF10L,TIAM1,0.545841273,0.332261704,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,ARHGEF10L,ZBTB33,0.773476565,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,ARHGEF10L,RALBP1,0.479913601,0.538996501,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,TIAM1,ZBTB33,0.347036486,1.04628647,Tendency towards co-occurrence
+Stomach +Esophageal Cancer,TIAM1,RALBP1,0.337855356,#NAME?,Tendency towards mutual exclusivity
+Stomach +Esophageal Cancer,ZBTB33,RALBP1,0.702535841,#NAME?,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,PTPN6,COL18A1,0.584166763,0.072320662,Tendency towards co-occurrence
+Stomach Adenocarcinoma,PTPN6,FOXO4,0.558001136,-0.435318071,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,PTPN6,CUX2,0.483920114,-0.588810206,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,PTPN6,ARHGEF10L,0.671349595,-0.013986242,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,PTPN6,TIAM1,0.527335983,-0.277925898,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,PTPN6,ZBTB33,0.287402746,0.587786665,Tendency towards co-occurrence
+Stomach Adenocarcinoma,PTPN6,RALBP1,0.084423321,#NAME?,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,COL18A1,FOXO4,0.088725152,#NAME?,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,COL18A1,CUX2,0.088781981,0.930542755,Tendency towards co-occurrence
+Stomach Adenocarcinoma,COL18A1,ARHGEF10L,0.640430457,-0.014528101,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,COL18A1,TIAM1,0.460473638,-0.287682072,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,COL18A1,ZBTB33,0.557482352,0.075223421,Tendency towards co-occurrence
+Stomach Adenocarcinoma,COL18A1,RALBP1,0.438222785,0.231801614,Tendency towards co-occurrence
+Stomach Adenocarcinoma,FOXO4,CUX2,0.395202121,-0.765250474,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,FOXO4,ARHGEF10L,0.070228976,1.020087526,Tendency towards co-occurrence
+Stomach Adenocarcinoma,FOXO4,TIAM1,0.333202725,0.410355093,Tendency towards co-occurrence
+Stomach Adenocarcinoma,FOXO4,ZBTB33,0.088725152,#NAME?,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,FOXO4,RALBP1,0.00772574,1.444563269,Tendency towards co-occurrence(Significant)
+Stomach Adenocarcinoma,CUX2,ARHGEF10L,0.216563132,-1.139822557,Tendency towards mutual exclusivity
+Stomach Adenocarcinoma,CUX2,TIAM1,0.228876788,0.544217708,Tendency towards co-occurrence
+Stomach Adenocarcinoma,CUX2,ZBTB33,0.026645561,1.218157439,Tendency towards co-occurrence(Significant)
+Stomach Adenocarcinoma,CUX2,RALBP1,0.159195182,0.701880861,Tendency towards co-occurrence
+Stomach Adenocarcinoma,ARHGEF10L,TIAM1,0.086779338,0.785889232,Tendency towards co-occurrence
+Stomach Adenocarcinoma,ARHGEF10L,ZBTB33,0.169685494,0.673060422,Tendency towards co-occurrence
+Stomach Adenocarcinoma,ARHGEF10L,RALBP1,0.129389559,0.711374694,Tendency towards co-occurrence
+Stomach Adenocarcinoma,TIAM1,ZBTB33,0.020220116,1.116004031,Tendency towards co-occurrence(Significant)
+Stomach Adenocarcinoma,TIAM1,RALBP1,0.472225457,0.152613401,Tendency towards co-occurrence
+Stomach Adenocarcinoma,ZBTB33,RALBP1,0.317980348,-0.623621118,Tendency towards mutual exclusivity
+Head and Neck Cancer,PTPN6,COL18A1,0.160846764,1.211940974,Tendency towards co-occurrence
+Head and Neck Cancer,PTPN6,FOXO4,0.013834163,1.773848543,Tendency towards co-occurrence(Significant)
+Head and Neck Cancer,PTPN6,CUX2,0.698841289,-0.104543856,Tendency towards mutual exclusivity
+Head and Neck Cancer,PTPN6,ARHGEF10L,0.675049458,-0.165792255,Tendency towards mutual exclusivity
+Head and Neck Cancer,PTPN6,TIAM1,0.324950542,0.653141846,Tendency towards co-occurrence
+Head and Neck Cancer,PTPN6,ZBTB33,0.009427899,1.673153727,Tendency towards co-occurrence(Significant)
+Head and Neck Cancer,PTPN6,RALBP1,0.145907167,#NAME?,Tendency towards mutual exclusivity
+Head and Neck Cancer,COL18A1,FOXO4,0.4629175,#NAME?,Tendency towards mutual exclusivity
+Head and Neck Cancer,COL18A1,CUX2,0.558284829,0.290352301,Tendency towards co-occurrence
+Head and Neck Cancer,COL18A1,ARHGEF10L,0.578593572,0.229185866,Tendency towards co-occurrence
+Head and Neck Cancer,COL18A1,TIAM1,0.421406428,#NAME?,Tendency towards mutual exclusivity
+Head and Neck Cancer,COL18A1,ZBTB33,0.275903069,0.800777845,Tendency towards co-occurrence
+Head and Neck Cancer,COL18A1,RALBP1,0.360273641,0.575364145,Tendency towards co-occurrence
+Head and Neck Cancer,FOXO4,CUX2,0.08659702,1.260893095,Tendency towards co-occurrence
+Head and Neck Cancer,FOXO4,ARHGEF10L,0.098928151,1.192297773,Tendency towards co-occurrence
+Head and Neck Cancer,FOXO4,TIAM1,0.324950542,0.653141846,Tendency towards co-occurrence
+Head and Neck Cancer,FOXO4,ZBTB33,0.04691145,1.314550456,Tendency towards co-occurrence(Significant)
+Head and Neck Cancer,FOXO4,RALBP1,0.453309872,-0.649472117,Tendency towards mutual exclusivity
+Head and Neck Cancer,CUX2,ARHGEF10L,0.648629856,-0.230523659,Tendency towards mutual exclusivity
+Head and Neck Cancer,CUX2,TIAM1,0.351370144,0.58451334,Tendency towards co-occurrence
+Head and Neck Cancer,CUX2,ZBTB33,0.471679102,0.305979557,Tendency towards co-occurrence
+Head and Neck Cancer,CUX2,RALBP1,0.283872547,0.592051064,Tendency towards co-occurrence
+Head and Neck Cancer,ARHGEF10L,TIAM1,0.030994511,1.471452169,Tendency towards co-occurrence(Significant)
+Head and Neck Cancer,ARHGEF10L,ZBTB33,0.170414986,#NAME?,Tendency towards mutual exclusivity
+Head and Neck Cancer,ARHGEF10L,RALBP1,0.61072859,0.015135424,Tendency towards co-occurrence
+Head and Neck Cancer,TIAM1,ZBTB33,0.501697953,0.241162057,Tendency towards co-occurrence
+Head and Neck Cancer,TIAM1,RALBP1,0.120744394,0.918953849,Tendency towards co-occurrence
+Head and Neck Cancer,ZBTB33,RALBP1,0.25835964,-1.042748709,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,PTPN6,COL18A1,0.937519348,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,PTPN6,FOXO4,0.962125151,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,PTPN6,CUX2,1,Infinity,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,PTPN6,ARHGEF10L,0.949758504,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,PTPN6,TIAM1,0.962125151,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,PTPN6,ZBTB33,0.889817947,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,PTPN6,RALBP1,0.937519348,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,COL18A1,FOXO4,0.000389453,5.550372261,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,COL18A1,CUX2,1,Infinity,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,COL18A1,ARHGEF10L,0.000774907,4.854631046,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,COL18A1,TIAM1,0.962125151,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,COL18A1,ZBTB33,0.004530846,3.588795996,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,COL18A1,RALBP1,0.001284872,4.446565156,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,FOXO4,CUX2,1,Infinity,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,FOXO4,ARHGEF10L,0.03037777,4.1640779,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,FOXO4,TIAM1,0.977158154,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,FOXO4,ZBTB33,0.067476723,3.170210653,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,FOXO4,RALBP1,0.000389453,5.550372261,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,CUX2,ARHGEF10L,1,Infinity,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,CUX2,TIAM1,1,Infinity,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,CUX2,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,CUX2,RALBP1,1,Infinity,Tendency towards co-occurrence
+Kidney Clear Cell Carcinoma,ARHGEF10L,TIAM1,0.96962223,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,ARHGEF10L,ZBTB33,0.002751457,3.996889226,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,ARHGEF10L,RALBP1,0.000774907,4.854631046,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,TIAM1,ZBTB33,0.932523277,#NAME?,Tendency towards mutual exclusivity
+Kidney Clear Cell Carcinoma,TIAM1,RALBP1,0.037874849,3.873801793,Tendency towards co-occurrence(Significant)
+Kidney Clear Cell Carcinoma,ZBTB33,RALBP1,0.110182053,2.471800302,Tendency towards co-occurrence
+Lung Adenocarcinoma,PTPN6,COL18A1,0.53191518,0.092742052,Tendency towards co-occurrence
+Lung Adenocarcinoma,PTPN6,FOXO4,0.54763539,-0.244883538,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,PTPN6,CUX2,0.367246635,0.432864082,Tendency towards co-occurrence
+Lung Adenocarcinoma,PTPN6,ARHGEF10L,0.076890213,1.012682578,Tendency towards co-occurrence
+Lung Adenocarcinoma,PTPN6,TIAM1,0.627545976,-0.005763705,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,PTPN6,ZBTB33,0.573529883,-0.122167634,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,PTPN6,RALBP1,0.53191518,0.092742052,Tendency towards co-occurrence
+Lung Adenocarcinoma,COL18A1,FOXO4,0.298255158,0.571084815,Tendency towards co-occurrence
+Lung Adenocarcinoma,COL18A1,CUX2,0.475062279,-0.610909082,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,COL18A1,ARHGEF10L,0.029819442,1.337504197,Tendency towards co-occurrence(Significant)
+Lung Adenocarcinoma,COL18A1,TIAM1,0.141396409,-1.338562958,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,COL18A1,ZBTB33,0.502536854,-0.319942935,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,COL18A1,RALBP1,0.411947407,-0.470003629,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,FOXO4,CUX2,0.304246144,#NAME?,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,FOXO4,ARHGEF10L,0.636318148,-0.261973716,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,FOXO4,TIAM1,0.00912167,1.555095171,Tendency towards co-occurrence(Significant)
+Lung Adenocarcinoma,FOXO4,ZBTB33,0.52581112,0.198069914,Tendency towards co-occurrence
+Lung Adenocarcinoma,FOXO4,RALBP1,0.298255158,0.571084815,Tendency towards co-occurrence
+Lung Adenocarcinoma,CUX2,ARHGEF10L,0.694109294,-0.118341227,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,CUX2,TIAM1,0.092972299,1.062618686,Tendency towards co-occurrence
+Lung Adenocarcinoma,CUX2,ZBTB33,0.009821955,1.69968479,Tendency towards co-occurrence(Significant)
+Lung Adenocarcinoma,CUX2,RALBP1,0.232258531,0.735706795,Tendency towards co-occurrence
+Lung Adenocarcinoma,ARHGEF10L,TIAM1,0.359266701,-0.842678915,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,ARHGEF10L,ZBTB33,0.47418888,-0.611357748,Tendency towards mutual exclusivity
+Lung Adenocarcinoma,ARHGEF10L,RALBP1,0.109410879,0.982575978,Tendency towards co-occurrence
+Lung Adenocarcinoma,TIAM1,ZBTB33,0.128575172,0.798507696,Tendency towards co-occurrence
+Lung Adenocarcinoma,TIAM1,RALBP1,0.192204636,0.62791829,Tendency towards co-occurrence
+Lung Adenocarcinoma,ZBTB33,RALBP1,0.099139852,0.900290391,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,PTPN6,COL18A1,0.440365052,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,PTPN6,FOXO4,0.261352816,1.603168299,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,PTPN6,CUX2,0.170741135,1.236762627,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,PTPN6,ARHGEF10L,0.488976779,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,PTPN6,TIAM1,0.118862883,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,PTPN6,ZBTB33,0.904494382,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,PTPN6,RALBP1,0.231691789,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,COL18A1,FOXO4,0.870440262,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,COL18A1,CUX2,0.04333646,2.20949467,Tendency towards co-occurrence(Significant)
+Lung Squamous Cell Carcinoma,COL18A1,ARHGEF10L,0.279341563,1.36219681,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,COL18A1,TIAM1,0.377556393,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,COL18A1,ZBTB33,0.95505618,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,COL18A1,RALBP1,0.487867549,0.545386299,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,FOXO4,CUX2,0.870440262,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,FOXO4,ARHGEF10L,0.885983839,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,FOXO4,TIAM1,0.697871401,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,FOXO4,ZBTB33,0.983146067,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,FOXO4,RALBP1,0.780981112,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,CUX2,ARHGEF10L,0.720658437,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,CUX2,TIAM1,0.222383852,1.034896474,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,CUX2,ZBTB33,0.95505618,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,CUX2,RALBP1,0.01731515,2.160183306,Tendency towards co-occurrence(Significant)
+Lung Squamous Cell Carcinoma,ARHGEF10L,TIAM1,0.572436137,0.287682072,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,ARHGEF10L,ZBTB33,0.960674157,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,ARHGEF10L,RALBP1,0.442199687,0.705886206,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,TIAM1,ZBTB33,0.887640449,#NAME?,Tendency towards mutual exclusivity
+Lung Squamous Cell Carcinoma,TIAM1,RALBP1,0.055639757,1.30833282,Tendency towards co-occurrence
+Lung Squamous Cell Carcinoma,ZBTB33,RALBP1,0.921348315,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,PTPN6,COL18A1,0.406200391,-0.478035801,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,PTPN6,FOXO4,1,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,PTPN6,CUX2,0.464911678,0.191268343,Tendency towards co-occurrence
+Ovarian Serous Cancer,PTPN6,ARHGEF10L,0.127113109,-1.375006401,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,PTPN6,TIAM1,0.259557149,-1.049422044,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,PTPN6,ZBTB33,0.302471368,1.640328399,Tendency towards co-occurrence
+Ovarian Serous Cancer,PTPN6,RALBP1,0.049559485,0.77908961,Tendency towards co-occurrence(Significant)
+Ovarian Serous Cancer,COL18A1,FOXO4,1,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,COL18A1,CUX2,0.6602691,-0.201324504,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,COL18A1,ARHGEF10L,0.095924104,1.195703413,Tendency towards co-occurrence
+Ovarian Serous Cancer,COL18A1,TIAM1,0.207265383,1.008098281,Tendency towards co-occurrence
+Ovarian Serous Cancer,COL18A1,ZBTB33,0.88915009,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,COL18A1,RALBP1,0.04117513,1.197750009,Tendency towards co-occurrence(Significant)
+Ovarian Serous Cancer,FOXO4,CUX2,1,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,FOXO4,ARHGEF10L,1,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,FOXO4,TIAM1,1,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,FOXO4,ZBTB33,1,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,FOXO4,RALBP1,1,Infinity,Tendency towards co-occurrence
+Ovarian Serous Cancer,CUX2,ARHGEF10L,0.241700789,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,CUX2,TIAM1,0.347867486,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,CUX2,ZBTB33,0.871308017,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,CUX2,RALBP1,0.000902308,1.769536332,Tendency towards co-occurrence(Significant)
+Ovarian Serous Cancer,ARHGEF10L,TIAM1,0.633563076,0.058410762,Tendency towards co-occurrence
+Ovarian Serous Cancer,ARHGEF10L,ZBTB33,0.877235282,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,ARHGEF10L,RALBP1,0.082091676,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,TIAM1,ZBTB33,0.907172996,#NAME?,Tendency towards mutual exclusivity
+Ovarian Serous Cancer,TIAM1,RALBP1,0.527570694,0.189085957,Tendency towards co-occurrence
+Ovarian Serous Cancer,ZBTB33,RALBP1,0.215189873,2.07586372,Tendency towards co-occurrence
+Prostate Adenocarcinoma,PTPN6,COL18A1,0.478955454,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,PTPN6,FOXO4,0.640892374,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,PTPN6,CUX2,0.540810962,0.33514861,Tendency towards co-occurrence
+Prostate Adenocarcinoma,PTPN6,ARHGEF10L,0.578104127,0.223143551,Tendency towards co-occurrence
+Prostate Adenocarcinoma,PTPN6,TIAM1,0.695681658,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,PTPN6,ZBTB33,0.521044546,0.395612812,Tendency towards co-occurrence
+Prostate Adenocarcinoma,PTPN6,RALBP1,0.615017837,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,COL18A1,FOXO4,0.537452163,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,COL18A1,CUX2,0.726028128,-0.029852963,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,COL18A1,ARHGEF10L,0.003056801,1.972343406,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,COL18A1,TIAM1,0.397348723,0.814192862,Tendency towards co-occurrence
+Prostate Adenocarcinoma,COL18A1,ZBTB33,0.35790119,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,COL18A1,RALBP1,0.507408253,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,FOXO4,CUX2,0.518683992,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,FOXO4,ARHGEF10L,0.025777393,1.84582669,Tendency towards co-occurrence(Significant)
+Prostate Adenocarcinoma,FOXO4,TIAM1,0.736330052,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,FOXO4,ZBTB33,0.462547837,0.58451334,Tendency towards co-occurrence
+Prostate Adenocarcinoma,FOXO4,RALBP1,0.663633716,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,CUX2,ARHGEF10L,0.659586047,-0.202524264,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,CUX2,TIAM1,0.585432669,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,CUX2,ZBTB33,0.337449693,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,CUX2,RALBP1,0.511921585,0.425465775,Tendency towards co-occurrence
+Prostate Adenocarcinoma,ARHGEF10L,TIAM1,0.552301715,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,ARHGEF10L,ZBTB33,0.316022481,0.666478933,Tendency towards co-occurrence
+Prostate Adenocarcinoma,ARHGEF10L,RALBP1,0.451428584,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,TIAM1,ZBTB33,0.397348723,0.814192862,Tendency towards co-occurrence
+Prostate Adenocarcinoma,TIAM1,RALBP1,0.715749399,#NAME?,Tendency towards mutual exclusivity
+Prostate Adenocarcinoma,ZBTB33,RALBP1,0.021542645,1.916922612,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,PTPN6,COL18A1,0.377297989,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,PTPN6,FOXO4,0.19648883,1.033015006,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,PTPN6,CUX2,0.254872518,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,PTPN6,ARHGEF10L,0.377297989,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,PTPN6,TIAM1,0.337559139,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,PTPN6,ZBTB33,0.684526025,-0.139636637,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,PTPN6,RALBP1,0.19648883,1.033015006,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,COL18A1,FOXO4,0.539529638,0.330854244,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,COL18A1,CUX2,0.674544385,-0.164828399,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,COL18A1,ARHGEF10L,0.583070332,0.200041369,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,COL18A1,TIAM1,0.377297989,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,COL18A1,ZBTB33,0.271558091,0.782759339,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,COL18A1,RALBP1,0.032174226,1.703348512,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,FOXO4,CUX2,0.337042632,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,FOXO4,ARHGEF10L,0.539529638,0.330854244,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,FOXO4,TIAM1,0.578544661,0.213978877,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,FOXO4,ZBTB33,0.227789567,0.921988753,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,FOXO4,RALBP1,0.497148001,0.46163538,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,CUX2,ARHGEF10L,3.85E-05,2.521274294,Tendency towards co-occurrence(Significant)
+Papillary Thyroid Carcinoma,CUX2,TIAM1,0.254872518,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,CUX2,ZBTB33,0.221375397,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,CUX2,RALBP1,0.275552043,0.773667557,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,ARHGEF10L,TIAM1,0.622702011,0.0831339,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,ARHGEF10L,ZBTB33,0.341243257,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,ARHGEF10L,RALBP1,0.539529638,0.330854244,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,TIAM1,ZBTB33,0.09607653,1.176031888,Tendency towards co-occurrence
+Papillary Thyroid Carcinoma,TIAM1,RALBP1,0.421455339,#NAME?,Tendency towards mutual exclusivity
+Papillary Thyroid Carcinoma,ZBTB33,RALBP1,0.614444008,0.108213585,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,PTPN6,COL18A1,0.498642535,-0.561087459,Tendency towards mutual exclusivity
+Uterine Corpus Endometrial Cancer,PTPN6,FOXO4,0.19286376,0.840552472,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,PTPN6,CUX2,0.235865392,0.719122667,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,PTPN6,ARHGEF10L,0.042879732,1.210941474,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,PTPN6,TIAM1,0.349907902,0.459532329,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,PTPN6,ZBTB33,0.214081427,0.778304989,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,PTPN6,RALBP1,0.553601007,0.13872621,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,COL18A1,FOXO4,0.023446404,1.406913648,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,COL18A1,CUX2,0.122319237,0.925399448,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,COL18A1,ARHGEF10L,0.546949396,-0.24442095,Tendency towards mutual exclusivity
+Uterine Corpus Endometrial Cancer,COL18A1,TIAM1,0.215415405,0.654028764,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,COL18A1,ZBTB33,0.028919682,1.337260027,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,COL18A1,RALBP1,0.139181562,0.86613741,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,FOXO4,CUX2,0.290942489,0.583650154,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,FOXO4,ARHGEF10L,0.017435058,1.36045313,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,FOXO4,TIAM1,0.017435058,1.36045313,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,FOXO4,ZBTB33,7.28E-05,2.322890359,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,FOXO4,RALBP1,0.034496187,1.278874112,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,CUX2,ARHGEF10L,0.093782223,0.921624078,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,CUX2,TIAM1,0.00671333,1.489151747,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,CUX2,ZBTB33,0.0351681,1.271494005,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,CUX2,RALBP1,0.158787678,0.803757052,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,ARHGEF10L,TIAM1,0.005790919,1.416310257,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,ARHGEF10L,ZBTB33,0.004977544,1.563393974,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,ARHGEF10L,RALBP1,0.110064337,0.859132318,Tendency towards co-occurrence
+Uterine Corpus Endometrial Cancer,TIAM1,ZBTB33,1.30E-05,2.339334635,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,TIAM1,RALBP1,0.035166613,1.15046565,Tendency towards co-occurrence(Significant)
+Uterine Corpus Endometrial Cancer,ZBTB33,RALBP1,0.001740056,1.807263656,Tendency towards co-occurrence(Significant)

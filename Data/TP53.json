@@ -1,0 +1,722 @@
+[
+  {
+    "id": 0,
+    "pairwise": "MYC-TP53",
+    "name": "Pan-Lung",
+    "value": "0.142043845"
+  },
+  {
+    "id": 1,
+    "pairwise": "MYC-TP53",
+    "name": "Bladder Uroethelial",
+    "value": "0.469252853"
+  },
+  {
+    "id": 2,
+    "pairwise": "MYC-TP53",
+    "name": "Acute Myeloid Leukemia",
+    "value": "0.117228387"
+  },
+  {
+    "id": 3,
+    "pairwise": "MYC-TP53",
+    "name": "Colorectal Adenocarcinoma",
+    "value": "0.002688887"
+  },
+  {
+    "id": 4,
+    "pairwise": "MYC-TP53",
+    "name": "Breast Cancer (Cell)",
+    "value": "5.42E-15"
+  },
+  {
+    "id": 5,
+    "pairwise": "MYC-TP53",
+    "name": "Breast Cancer (Nature)",
+    "value": "1.19E-05"
+  },
+  {
+    "id": 6,
+    "pairwise": "MYC-TP53",
+    "name": "LGG+GBM",
+    "value": "1.77E-05"
+  },
+  {
+    "id": 7,
+    "pairwise": "MYC-TP53",
+    "name": "Glioblastoma (Cell)",
+    "value": "0.420910837"
+  },
+  {
+    "id": 8,
+    "pairwise": "MYC-TP53",
+    "name": "Glioblastoma (Nature)",
+    "value": "1"
+  },
+  {
+    "id": 9,
+    "pairwise": "MYC-TP53",
+    "name": "Stomach +Esophageal Cancer",
+    "value": "0.312556115"
+  },
+  {
+    "id": 10,
+    "pairwise": "MYC-TP53",
+    "name": "Stomach Adenocarcinoma",
+    "value": "0.108031706"
+  },
+  {
+    "id": 11,
+    "pairwise": "MYC-TP53",
+    "name": "Head and Neck Cancer",
+    "value": "0.029961378"
+  },
+  {
+    "id": 12,
+    "pairwise": "MYC-TP53",
+    "name": "Kidney Clear Cell Carcinoma",
+    "value": "0.175547356"
+  },
+  {
+    "id": 13,
+    "pairwise": "MYC-TP53",
+    "name": "Kidney Chromophobe Cancer",
+    "value": "0.554761759"
+  },
+  {
+    "id": 14,
+    "pairwise": "MYC-TP53",
+    "name": "Lung Adenocarcinoma",
+    "value": "0.281385688"
+  },
+  {
+    "id": 15,
+    "pairwise": "MYC-TP53",
+    "name": "Lung Squamous Cell Carcinoma",
+    "value": "0.29371338"
+  },
+  {
+    "id": 16,
+    "pairwise": "MYC-TP53",
+    "name": "Ovarian Serous Cancer",
+    "value": "0.049194835"
+  },
+  {
+    "id": 17,
+    "pairwise": "MYC-TP53",
+    "name": "Prostate Adenocarcinoma",
+    "value": "0.013529106"
+  },
+  {
+    "id": 18,
+    "pairwise": "MYC-TP53",
+    "name": "Papillary Thyroid Carcinoma",
+    "value": "0.614444008"
+  },
+  {
+    "id": 19,
+    "pairwise": "MYC-TP53",
+    "name": "Uterine Corpus Endometrial Cancer",
+    "value": "3.58E-06"
+  },
+  {
+    "id": 0,
+    "pairwise": "TP53-GSTA1",
+    "name": "Pan-Lung",
+    "value": "0.001746421"
+  },
+  {
+    "id": 1,
+    "pairwise": "TP53-GSTA1",
+    "name": "Bladder Uroethelial",
+    "value": "0.379604971"
+  },
+  {
+    "id": 2,
+    "pairwise": "TP53-GSTA1",
+    "name": "Acute Myeloid Leukemia",
+    "value": "0.085468073"
+  },
+  {
+    "id": 3,
+    "pairwise": "TP53-GSTA1",
+    "name": "Colorectal Adenocarcinoma",
+    "value": "0.354612141"
+  },
+  {
+    "id": 4,
+    "pairwise": "TP53-GSTA1",
+    "name": "Breast Cancer (Cell)",
+    "value": "0.000454313"
+  },
+  {
+    "id": 5,
+    "pairwise": "TP53-GSTA1",
+    "name": "Breast Cancer (Nature)",
+    "value": "0.300374332"
+  },
+  {
+    "id": 6,
+    "pairwise": "TP53-GSTA1",
+    "name": "LGG+GBM",
+    "value": "0.30236694"
+  },
+  {
+    "id": 7,
+    "pairwise": "TP53-GSTA1",
+    "name": "Glioblastoma (Cell)",
+    "value": "0.085276395"
+  },
+  {
+    "id": 8,
+    "pairwise": "TP53-GSTA1",
+    "name": "Glioblastoma (Nature)",
+    "value": "0.351648352"
+  },
+  {
+    "id": 9,
+    "pairwise": "TP53-GSTA1",
+    "name": "Stomach +Esophageal Cancer",
+    "value": "0.025392657"
+  },
+  {
+    "id": 10,
+    "pairwise": "TP53-GSTA1",
+    "name": "Stomach Adenocarcinoma",
+    "value": "0.337513507"
+  },
+  {
+    "id": 11,
+    "pairwise": "TP53-GSTA1",
+    "name": "Head and Neck Cancer",
+    "value": "0.560871351"
+  },
+  {
+    "id": 12,
+    "pairwise": "TP53-GSTA1",
+    "name": "Kidney Clear Cell Carcinoma",
+    "value": "0.693841215"
+  },
+  {
+    "id": 13,
+    "pairwise": "TP53-GSTA1",
+    "name": "Kidney Chromophobe Cancer",
+    "value": "0.434134615"
+  },
+  {
+    "id": 14,
+    "pairwise": "TP53-GSTA1",
+    "name": "Lung Adenocarcinoma",
+    "value": "0.020574651"
+  },
+  {
+    "id": 15,
+    "pairwise": "TP53-GSTA1",
+    "name": "Lung Squamous Cell Carcinoma",
+    "value": "0.289568443"
+  },
+  {
+    "id": 16,
+    "pairwise": "TP53-GSTA1",
+    "name": "Ovarian Serous Cancer",
+    "value": "0.117945108"
+  },
+  {
+    "id": 17,
+    "pairwise": "TP53-GSTA1",
+    "name": "Prostate Adenocarcinoma",
+    "value": "0.398361266"
+  },
+  {
+    "id": 18,
+    "pairwise": "TP53-GSTA1",
+    "name": "Papillary Thyroid Carcinoma",
+    "value": "0.163913166"
+  },
+  {
+    "id": 19,
+    "pairwise": "TP53-GSTA1",
+    "name": "Uterine Corpus Endometrial Cancer",
+    "value": "0.247636031"
+  },
+  {
+    "id": 0,
+    "pairwise": "TP53-GSTM2",
+    "name": "Pan-Lung",
+    "value": "0.315296522"
+  },
+  {
+    "id": 1,
+    "pairwise": "TP53-GSTM2",
+    "name": "Bladder Uroethelial",
+    "value": "0.145735166"
+  },
+  {
+    "id": 2,
+    "pairwise": "TP53-GSTM2",
+    "name": "Acute Myeloid Leukemia",
+    "value": "0.48662624"
+  },
+  {
+    "id": 3,
+    "pairwise": "TP53-GSTM2",
+    "name": "Colorectal Adenocarcinoma",
+    "value": "0.314182235"
+  },
+  {
+    "id": 4,
+    "pairwise": "TP53-GSTM2",
+    "name": "Breast Cancer (Cell)",
+    "value": "0.022569771"
+  },
+  {
+    "id": 5,
+    "pairwise": "TP53-GSTM2",
+    "name": "Breast Cancer (Nature)",
+    "value": "0.396135257"
+  },
+  {
+    "id": 6,
+    "pairwise": "TP53-GSTM2",
+    "name": "LGG+GBM",
+    "value": "0.463243059"
+  },
+  {
+    "id": 7,
+    "pairwise": "TP53-GSTM2",
+    "name": "Glioblastoma (Cell)",
+    "value": "0.353002723"
+  },
+  {
+    "id": 8,
+    "pairwise": "TP53-GSTM2",
+    "name": "Glioblastoma (Nature)",
+    "value": "1"
+  },
+  {
+    "id": 9,
+    "pairwise": "TP53-GSTM2",
+    "name": "Stomach +Esophageal Cancer",
+    "value": "0.372771948"
+  },
+  {
+    "id": 10,
+    "pairwise": "TP53-GSTM2",
+    "name": "Stomach Adenocarcinoma",
+    "value": "0.230024432"
+  },
+  {
+    "id": 11,
+    "pairwise": "TP53-GSTM2",
+    "name": "Head and Neck Cancer",
+    "value": "0.34120832"
+  },
+  {
+    "id": 12,
+    "pairwise": "TP53-GSTM2",
+    "name": "Kidney Clear Cell Carcinoma",
+    "value": "0.665248858"
+  },
+  {
+    "id": 13,
+    "pairwise": "TP53-GSTM2",
+    "name": "Kidney Chromophobe Cancer",
+    "value": "0.661538462"
+  },
+  {
+    "id": 14,
+    "pairwise": "TP53-GSTM2",
+    "name": "Lung Adenocarcinoma",
+    "value": "0.565578414"
+  },
+  {
+    "id": 15,
+    "pairwise": "TP53-GSTM2",
+    "name": "Lung Squamous Cell Carcinoma",
+    "value": "0.356461179"
+  },
+  {
+    "id": 16,
+    "pairwise": "TP53-GSTM2",
+    "name": "Ovarian Serous Cancer",
+    "value": "0.586038884"
+  },
+  {
+    "id": 17,
+    "pairwise": "TP53-GSTM2",
+    "name": "Prostate Adenocarcinoma",
+    "value": "0.220304576"
+  },
+  {
+    "id": 18,
+    "pairwise": "TP53-GSTM2",
+    "name": "Papillary Thyroid Carcinoma",
+    "value": "0.411989544"
+  },
+  {
+    "id": 19,
+    "pairwise": "TP53-GSTM2",
+    "name": "Uterine Corpus Endometrial Cancer",
+    "value": "0.081034593"
+  },
+  {
+    "id": 0,
+    "pairwise": "TP53-GSTP1",
+    "name": "Pan-Lung",
+    "value": "0.301911939"
+  },
+  {
+    "id": 1,
+    "pairwise": "TP53-GSTP1",
+    "name": "Bladder Uroethelial",
+    "value": "0.273472785"
+  },
+  {
+    "id": 2,
+    "pairwise": "TP53-GSTP1",
+    "name": "Acute Myeloid Leukemia",
+    "value": "0.002319052"
+  },
+  {
+    "id": 3,
+    "pairwise": "TP53-GSTP1",
+    "name": "Colorectal Adenocarcinoma",
+    "value": "0.021123339"
+  },
+  {
+    "id": 4,
+    "pairwise": "TP53-GSTP1",
+    "name": "Breast Cancer (Cell)",
+    "value": "0.482157901"
+  },
+  {
+    "id": 5,
+    "pairwise": "TP53-GSTP1",
+    "name": "Breast Cancer (Nature)",
+    "value": "0.374577598"
+  },
+  {
+    "id": 6,
+    "pairwise": "TP53-GSTP1",
+    "name": "LGG+GBM",
+    "value": "0.3288453"
+  },
+  {
+    "id": 7,
+    "pairwise": "TP53-GSTP1",
+    "name": "Glioblastoma (Cell)",
+    "value": "0.142338595"
+  },
+  {
+    "id": 8,
+    "pairwise": "TP53-GSTP1",
+    "name": "Glioblastoma (Nature)",
+    "value": "1"
+  },
+  {
+    "id": 9,
+    "pairwise": "TP53-GSTP1",
+    "name": "Stomach +Esophageal Cancer",
+    "value": "0.412195788"
+  },
+  {
+    "id": 10,
+    "pairwise": "TP53-GSTP1",
+    "name": "Stomach Adenocarcinoma",
+    "value": "0.19510314"
+  },
+  {
+    "id": 11,
+    "pairwise": "TP53-GSTP1",
+    "name": "Head and Neck Cancer",
+    "value": "0.08448808"
+  },
+  {
+    "id": 12,
+    "pairwise": "TP53-GSTP1",
+    "name": "Kidney Clear Cell Carcinoma",
+    "value": "0.334751142"
+  },
+  {
+    "id": 13,
+    "pairwise": "TP53-GSTP1",
+    "name": "Kidney Chromophobe Cancer",
+    "value": "0.434134615"
+  },
+  {
+    "id": 14,
+    "pairwise": "TP53-GSTP1",
+    "name": "Lung Adenocarcinoma",
+    "value": "0.565578414"
+  },
+  {
+    "id": 15,
+    "pairwise": "TP53-GSTP1",
+    "name": "Lung Squamous Cell Carcinoma",
+    "value": "0.431025502"
+  },
+  {
+    "id": 16,
+    "pairwise": "TP53-GSTP1",
+    "name": "Ovarian Serous Cancer",
+    "value": "0.259618369"
+  },
+  {
+    "id": 17,
+    "pairwise": "TP53-GSTP1",
+    "name": "Prostate Adenocarcinoma",
+    "value": "0.080440653"
+  },
+  {
+    "id": 18,
+    "pairwise": "TP53-GSTP1",
+    "name": "Papillary Thyroid Carcinoma",
+    "value": "0.003985261"
+  },
+  {
+    "id": 19,
+    "pairwise": "TP53-GSTP1",
+    "name": "Uterine Corpus Endometrial Cancer",
+    "value": "6.18E-05"
+  },
+  {
+    "id": 0,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Pan-Lung",
+    "value": "1.06E-13"
+  },
+  {
+    "id": 1,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Bladder Uroethelial",
+    "value": "0.006793471"
+  },
+  {
+    "id": 2,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Acute Myeloid Leukemia",
+    "value": "0.286669548"
+  },
+  {
+    "id": 3,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Colorectal Adenocarcinoma",
+    "value": "0.188669681"
+  },
+  {
+    "id": 4,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Breast Cancer (Cell)",
+    "value": "0.018232644"
+  },
+  {
+    "id": 5,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Breast Cancer (Nature)",
+    "value": "0.02651283"
+  },
+  {
+    "id": 6,
+    "pairwise": "TP53-PIK3CA",
+    "name": "LGG+GBM",
+    "value": "0.036217758"
+  },
+  {
+    "id": 7,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Glioblastoma (Cell)",
+    "value": "0.43442457"
+  },
+  {
+    "id": 8,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Glioblastoma (Nature)",
+    "value": "0.582491395"
+  },
+  {
+    "id": 9,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Stomach +Esophageal Cancer",
+    "value": "0.333654219"
+  },
+  {
+    "id": 10,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Stomach Adenocarcinoma",
+    "value": "0.000898001"
+  },
+  {
+    "id": 11,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Head and Neck Cancer",
+    "value": "0.268767003"
+  },
+  {
+    "id": 12,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Kidney Clear Cell Carcinoma",
+    "value": "0.06706334"
+  },
+  {
+    "id": 13,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Kidney Chromophobe Cancer",
+    "value": "0.661538462"
+  },
+  {
+    "id": 14,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Lung Adenocarcinoma",
+    "value": "1.54E-01"
+  },
+  {
+    "id": 15,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Lung Squamous Cell Carcinoma",
+    "value": "0.611653855"
+  },
+  {
+    "id": 16,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Ovarian Serous Cancer",
+    "value": "0.018277525"
+  },
+  {
+    "id": 17,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Prostate Adenocarcinoma",
+    "value": "0.408030764"
+  },
+  {
+    "id": 18,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Papillary Thyroid Carcinoma",
+    "value": "0.301817701"
+  },
+  {
+    "id": 19,
+    "pairwise": "TP53-PIK3CA",
+    "name": "Uterine Corpus Endometrial Cancer",
+    "value": "0.144097372"
+  },
+  {
+    "id": 0,
+    "pairwise": "TP53-RALBP1",
+    "name": "Pan-Lung",
+    "value": "0.093316064"
+  },
+  {
+    "id": 1,
+    "pairwise": "TP53-RALBP1",
+    "name": "Bladder Uroethelial",
+    "value": "0.17571568"
+  },
+  {
+    "id": 2,
+    "pairwise": "TP53-RALBP1",
+    "name": "Acute Myeloid Leukemia",
+    "value": "0.028770685"
+  },
+  {
+    "id": 3,
+    "pairwise": "TP53-RALBP1",
+    "name": "Colorectal Adenocarcinoma",
+    "value": "0.319216306"
+  },
+  {
+    "id": 4,
+    "pairwise": "TP53-RALBP1",
+    "name": "Breast Cancer (Cell)",
+    "value": "1.51E-05"
+  },
+  {
+    "id": 5,
+    "pairwise": "TP53-RALBP1",
+    "name": "Breast Cancer (Nature)",
+    "value": "0.000208514"
+  },
+  {
+    "id": 6,
+    "pairwise": "TP53-RALBP1",
+    "name": "LGG+GBM",
+    "value": "0.361650122"
+  },
+  {
+    "id": 7,
+    "pairwise": "TP53-RALBP1",
+    "name": "Glioblastoma (Cell)",
+    "value": "0.040969274"
+  },
+  {
+    "id": 8,
+    "pairwise": "TP53-RALBP1",
+    "name": "Glioblastoma (Nature)",
+    "value": "0.351648352"
+  },
+  {
+    "id": 9,
+    "pairwise": "TP53-RALBP1",
+    "name": "Stomach +Esophageal Cancer",
+    "value": "0.158405374"
+  },
+  {
+    "id": 10,
+    "pairwise": "TP53-RALBP1",
+    "name": "Stomach Adenocarcinoma",
+    "value": "0.335689529"
+  },
+  {
+    "id": 11,
+    "pairwise": "TP53-RALBP1",
+    "name": "Head and Neck Cancer",
+    "value": "0.178228739"
+  },
+  {
+    "id": 12,
+    "pairwise": "TP53-RALBP1",
+    "name": "Kidney Clear Cell Carcinoma",
+    "value": "0.529529541"
+  },
+  {
+    "id": 13,
+    "pairwise": "TP53-RALBP1",
+    "name": "Kidney Chromophobe Cancer",
+    "value": "0.434134615"
+  },
+  {
+    "id": 14,
+    "pairwise": "TP53-RALBP1",
+    "name": "Lung Adenocarcinoma",
+    "value": "0.552317808"
+  },
+  {
+    "id": 15,
+    "pairwise": "TP53-RALBP1",
+    "name": "Lung Squamous Cell Carcinoma",
+    "value": "0.568974498"
+  },
+  {
+    "id": 16,
+    "pairwise": "TP53-RALBP1",
+    "name": "Ovarian Serous Cancer",
+    "value": "0.593806061"
+  },
+  {
+    "id": 17,
+    "pairwise": "TP53-RALBP1",
+    "name": "Prostate Adenocarcinoma",
+    "value": "0.475316433"
+  },
+  {
+    "id": 18,
+    "pairwise": "TP53-RALBP1",
+    "name": "Papillary Thyroid Carcinoma",
+    "value": "0.614444008"
+  },
+  {
+    "id": 19,
+    "pairwise": "TP53-RALBP1",
+    "name": "Uterine Corpus Endometrial Cancer",
+    "value": "1.17E-06"
+  }
+]
