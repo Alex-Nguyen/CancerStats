@@ -51,7 +51,7 @@
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.json("data/tp53.json", function(error, dataset) {
+    d3.json("data/TP53.json", function(error, dataset) {
         var data = d3.nest().key(function (d) {
             return d.name;
         }).entries(dataset);
