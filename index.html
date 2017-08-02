@@ -31,7 +31,8 @@
     </div>
     <div>Move slider to change the significant value. Current value: <label id="slidervalue">0.05</label></div>
     <div><a href="index2.html">Click here </a> to go to set 2</div>
-    <div><a href="barchart.html">Click here </a> to list TP53 only</div>
+    <div><a href="barchart.html">Click here </a> to list barchart TP53 only</div>
+    <div><a href="tp53.html">Click here </a> to list network TP53 only</div>
 
 </div>
 
@@ -144,8 +145,21 @@
     d3.csv( 'Data/Data.csv', function( data ) {
         //console.log(data)
         var Pairwise = new Object();
+        var tp53data = {"edges":[]};
+        var geneArr =[];
         data.forEach(function (d) {
+
             var geneA = d.geneA, geneB = d.geneB;
+            if(geneA=="TP53"||geneB=="TP53"){
+                if(geneArr.indexOf(geneA)<0){
+                    geneArr.push(geneA);
+                }
+                if(geneArr.indexOf(geneB)<0){
+                    geneArr.push(geneB);
+                }
+                tp53data.edges.push({"source":{"id":geneArr.indexOf(geneA), "label": geneA}, "target":{"id":geneArr.indexOf(geneB),"label":geneB},"name":d.Cancer,"value":d['p-Value']})
+
+            }
             if(!Pairwise.hasOwnProperty(d.geneA+"-"+d.geneB)){
                 Pairwise[d.geneA+"-"+d.geneB]=[];
                 Pairwise[d.geneA+"-"+d.geneB].push({"id":0,"pairwise": d.geneA+"-"+d.geneB,"name":d.Cancer,"value":d['p-Value']});
@@ -154,9 +168,8 @@
                 Pairwise[d.geneA+"-"+d.geneB].push({"id":Pairwise[geneA+"-"+d.geneB].length,"pairwise": d.geneA+"-"+d.geneB,"name":d.Cancer,"value":d['p-Value']});
             }
         })
+        console.log(JSON.stringify(tp53data));
 
-        console.log(Pairwise)
-        console.log(JSON.stringify(Pairwise["TP53-RALBP1"]))
         // Get the maximum value:
         for(var key in Pairwise){
             var svg = d3.selectAll("."+key)

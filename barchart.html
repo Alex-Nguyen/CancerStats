@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html lang="en">
+<head>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+</head>
 <style>
 
     body {
@@ -19,7 +22,7 @@
 
 </style>
 <body>
-<script src="https://d3js.org/d3.v3.min.js"></script>
+
 <script>
 
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -56,7 +59,6 @@
             return d.name;
         }).entries(dataset);
 
-        console.log(data)
         var categoriesNames = data.map(function(d) { return d.key; });
         var geneNames = data[0].values.map(function(d) { return d.pairwise; });
        // console.log(geneNames);
@@ -142,3 +144,5 @@
     });
 
 </script>
+</body>
+</html>
