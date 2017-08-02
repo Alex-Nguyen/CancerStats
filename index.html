@@ -31,6 +31,8 @@
     </div>
     <div>Move slider to change the significant value. Current value: <label id="slidervalue">0.05</label></div>
     <div><a href="index2.html">Click here </a> to go to set 2</div>
+    <div><a href="barchart.html">Click here </a> to list TP53 only</div>
+
 </div>
 
 <script>
@@ -130,9 +132,9 @@
     function SignificantScale( x) {
         var RadiusScale;
         if(x<=slider.value){
-            RadiusScale = d3.scale.linear().domain([0,0.05]).range([70,50]);
+            RadiusScale = d3.scale.linear().domain([0,0.049]).range([70,50]);
         }else{
-            RadiusScale = d3.scale.linear().domain([0.051,1]).range([45,5]);
+            RadiusScale = d3.scale.linear().domain([0.05,1]).range([40,5]);
         }
         return RadiusScale(x);
     }
