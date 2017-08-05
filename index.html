@@ -17,8 +17,7 @@
         text-align: center;
     }
     .arc{
-        fill:#bc96a5;
-        stroke: black;
+
     }
 </style>
 <body>
@@ -31,17 +30,22 @@
     </div>
     <div>Move slider to change the significant value. Current value: <label id="slidervalue">0.05</label></div>
     <div><a href="index2.html">Click here </a> to go to set 2</div>
-    <div><a href="barchart.html">Click here </a> to list barchart TP53 only</div>
-    <div><a href="tp53.html">Click here </a> to list network TP53 only</div>
+
 
 </div>
+<div id="colorlegend" style="margin-top: 10px">
 
+</div>
 <script>
     function _sliderchange() {
         var slider = document.getElementById('slider');
         var label = document.getElementById('slidervalue');
         label.innerHTML =slider.value;
-        d3.selectAll("circle").attr("r",SignificantScale(slider.value));
+        d3.selectAll(".thresholdcircle").attr("r",SignificantScale(slider.value));
+        var arc = d3.selectAll(".arc");
+        arc.style("opacity",function (d) {
+            return d.value <=slider.value ? 1:0.1;
+        });
     }
 
 </script>
@@ -129,13 +133,14 @@
     </tr>
 </table>
 <script>
+    var c20 = d3.scale.category20();
     var slider = document.getElementById('slider');
     function SignificantScale( x) {
-        var RadiusScale;
-        if(x<=slider.value){
-            RadiusScale = d3.scale.linear().domain([0,0.049]).range([70,50]);
+        var RadiusScale ;
+        if(x<=0.05){
+            RadiusScale =  d3.scale.linear().domain([0,0.05]).range([70,50]);
         }else{
-            RadiusScale = d3.scale.linear().domain([0.05,1]).range([40,5]);
+            RadiusScale =  d3.scale.linear().domain([0.05,1]).range([40,5]);
         }
         return RadiusScale(x);
     }
@@ -143,7 +148,6 @@
 
     // Load the JSON data:
     d3.csv( 'Data/Data.csv', function( data ) {
-        //console.log(data)
         var Pairwise = new Object();
         var tp53data = {"edges":[]};
         var geneArr =[];
@@ -162,14 +166,14 @@
             }
             if(!Pairwise.hasOwnProperty(d.geneA+"-"+d.geneB)){
                 Pairwise[d.geneA+"-"+d.geneB]=[];
-                Pairwise[d.geneA+"-"+d.geneB].push({"id":0,"pairwise": d.geneA+"-"+d.geneB,"name":d.Cancer,"value":d['p-Value']});
+                Pairwise[d.geneA+"-"+d.geneB].push({"id":0,"pairwise": d.geneA+"-"+d.geneB,"name":d.Cancer,"value":d['p-Value'],"coocurrence":d.Association});
             }
             else{
-                Pairwise[d.geneA+"-"+d.geneB].push({"id":Pairwise[geneA+"-"+d.geneB].length,"pairwise": d.geneA+"-"+d.geneB,"name":d.Cancer,"value":d['p-Value']});
+                Pairwise[d.geneA+"-"+d.geneB].push({"id":Pairwise[geneA+"-"+d.geneB].length,"pairwise": d.geneA+"-"+d.geneB,"name":d.Cancer,"value":d['p-Value'],"coocurrence":d.Association});
             }
         })
-        console.log(JSON.stringify(tp53data));
 
+        console.log(Pairwise)
         // Get the maximum value:
         for(var key in Pairwise){
             var svg = d3.selectAll("."+key)
@@ -181,9 +185,18 @@
 
             var arc = d3.svg.arc();
 
-         var path=   svg.selectAll("path").data(Pairwise[key]).enter().append("g");
+             var path =  svg.selectAll("path").data(Pairwise[key]).enter().append("g");
              path.append("path")
                 .attr("class", "arc")
+                 .style("opacity",function (d) {
+                   return d.value <=document.getElementById('slider').value ? 1:0.1;
+                 })
+                 .style("fill",function (d) {
+                     return c20(d.id);
+                 })
+                 .style("stroke",function (d) {
+                     return d.coocurrence.indexOf("co-occurrence")>=0?"black":"white";
+                 })
                 .attr("id", function (d,i) {
                     return "arc_"+i;
                 })
@@ -198,6 +211,7 @@
                 return d.name + ": "+d.value;
                  });
                 path.append("circle")
+                    .attr("class","thresholdcircle")
                     .attr("r",function (d) {
                         return SignificantScale(document.getElementById("slider").value);
                     })
@@ -205,16 +219,21 @@
                     .style("stroke","red")
                     .style("stroke-dasharray","3 3");
 
-//            svg.selectAll(".arcText").data(Pairwise[key]).enter().append("text").attr("class","arcText")
-//                .attr("dy", -5)
-//                .append("textPath")
-//                .attr("startOffset","20%")
-//                .style("text-anchor","middle")
-//                .attr("xlink:href",function (d,i) {
-//                    return "#arc_"+i;
-//                }).text(function (d) {
-//                return d.value<0.05?d.value:null;
-//            })
+                path.append("circle")
+                .attr("r",function (d) {
+                    return SignificantScale(0);
+                })
+                .style("fill","none")
+                .style("stroke","black")
+                .style("stroke-dasharray","2 2");
+            path.append("circle")
+                .attr("r",function (d) {
+                    return SignificantScale(0.05);
+                })
+                .style("fill","none")
+                .style("stroke","black")
+                .style("stroke-dasharray","2 2");
+
 
 
 
@@ -222,8 +241,24 @@
         }
 
         // Where the maximum value gives us the maximum radius:
+        var legend = d3.select("#colorlegend").append("svg").attr("width",1200).attr("height",100);
+        var xvalue = legend.selectAll("g").data(Pairwise["GSTA1-GSTM2"]).enter().append("g");
+        xvalue.append("rect").attr("width",12).attr("height",12).style("fill",function (d,i) {
+            return c20(i);
+        }).attr("x",function (d,i) {
+          return (i%5)*200;
+        }).attr("y",function (d,i) {
+            return Math.floor(i/5)*25;
 
+        });
+        xvalue.append("text").style("font-size","11px").text(function (d) {
+            return d.name;
+        }).attr("x",function (d,i) {
+            return (i%5)*200+20;
+        }).attr("y",function (d,i) {
+            return Math.floor(i/5)*25+10;
 
+        })
 
     });
 
