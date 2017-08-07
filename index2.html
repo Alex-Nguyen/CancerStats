@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <title>Rose chart for Cancer</title>
     <!-- Stylesheets -->
-    <link href='http://fonts.googleapis.com/css?family=Cabin:500' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style/reset.css">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <!-- Libraries -->
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <!-- Scripts -->
     <script type="text/javascript" src="Scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/bootstrap-slider.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-slider.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
 </head>
 <style>
     td{
@@ -27,32 +27,42 @@
     .node text {
         font: 10px sans-serif;
     }
+    .well {
+        background-color: #E0E0E0;
+    }
+
 </style>
 <body>
 <div id="cancer">
 
 </div>
 <div>
-    <div>
-        <input id="slider" onchange="_sliderchange()" type="range" min="0" max="1" step="0.05"  value="0.05">
+    <div class="well">
+        <input id="slider"  type="text" data-slider-min="0.0001" value="0.05" data-slider-max="1" data-slider-step="0.05" />
     </div>
-    <div>Move slider to change the significant value. Current value: <label id="slidervalue">0.05</label></div>
     <div><a href="index.html">Click here </a> to go to set 1</div>
 </div>
 <div id="colorlegend" style="margin-top: 10px">
 
 </div>
 <script>
-    function _sliderchange() {
-        var slider = document.getElementById('slider');
-        var label = document.getElementById('slidervalue');
-        label.innerHTML =slider.value;
-        d3.selectAll(".thresholdcircle").attr("r",SignificantScale(slider.value));
+    var slider = new Slider('#slider', {
+        min: 0.001,
+        max: 1,
+        value:0.05,
+        tooltip:'always',
+        scale: 'logarithmic',
+        step: 0.05
+    });
+    slider.on("slide", function(sliderValue) {
+        d3.selectAll(".thresholdcircle").attr("r",SignificantScale(sliderValue));
+//
         var arc = d3.selectAll(".arc");
         arc.style("opacity",function (d) {
-            return d.value <=slider.value ? 1:0.1;
+            return d.value <=sliderValue ? 1:0.1;
         });
-    }
+    });
+
 
 </script>
 
@@ -163,9 +173,9 @@
     function SignificantScale( x) {
         var RadiusScale ;
         if(x<=0.05){
-            RadiusScale =  d3.scale.linear().domain([0,0.05]).range([70,50]);
+            RadiusScale =  d3.scale.linear().domain([0,0.05]).range([70,30]);
         }else{
-            RadiusScale =  d3.scale.linear().domain([0.05,1]).range([40,5]);
+            RadiusScale =  d3.scale.linear().domain([0.05,1]).range([30,5]);
         }
         return RadiusScale(x);
     }
@@ -261,7 +271,7 @@
                 .style("fill","none")
                 .style("stroke","black")
                 .style("stroke-dasharray","2 2");
-
+            svg.append("text").text("p=0").attr("x",71)
 
 
 
@@ -319,7 +329,7 @@
 
         });
 
-        console.log(graph.links);
+
         update(graph.nodes,graph.links);
 
 
