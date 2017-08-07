@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/bootstrap-slider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-slider.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+</head>
+<style>
+
+    .well {
+        background-color: #E0E0E0;
+    }
+
+</style>
+<body>
+<div class="well">
+    <input id="ex15" type="text" data-slider-min="0.0001" value="0.05" data-slider-max="1" data-slider-step="0.05" />
+
+</div>
+
+<script>
+
+    var slider = new Slider('#ex15', {
+        min: 0.001,
+        max: 1,
+        value:0.05,
+        tooltip:'always',
+        scale: 'logarithmic',
+        step: 0.05
+    });
+</script>
+</body>
+</html>
