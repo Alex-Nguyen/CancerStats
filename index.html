@@ -43,6 +43,7 @@
 </div>
 
 <script>
+    d3.csv( 'Data/Data.csv', function( dataset ) {
     var width = 960,
         height = 500
     var slider = new Slider('#slider', {
@@ -53,7 +54,37 @@
         scale: 'logarithmic',
         step: 0.05
     });
-    slider.on("slide", function(sliderValue) {
+        //Popuplate gene dataset
+        var graph={"nodes":[],"links":[]};
+        var temp = new Object();
+        var nodesarr=[];
+        dataset.forEach(function (d) {
+            if(nodesarr.indexOf(d.geneA)==-1){
+                nodesarr.push(d.geneA)
+            }
+            if(nodesarr.indexOf(d.geneB)==-1){
+                nodesarr.push(d.geneB)
+            }
+            if(!temp.hasOwnProperty(d.geneA+"_"+d.geneB)){
+                temp[d.geneA+"_"+d.geneB]={"source":nodesarr.indexOf(d.geneA),"target":nodesarr.indexOf(d.geneB),"values":[d['p-Value']]}
+            }else{
+                temp[d.geneA+"_"+d.geneB].values.push(d['p-Value'])
+            }
+        });
+        nodesarr.forEach(function (d,i) {
+            graph.nodes.push({"id":i,"name":d})
+        });
+        for(var key in temp){
+            graph.links.push(JSON.parse(JSON.stringify(temp[key])))
+        }
+
+        var links = graph.links.filter(function (d) {
+            return d3.min(d.values)<0.05;
+        })
+        console.log(links)
+
+
+        slider.on("slide", function(sliderValue) {
        d3.selectAll(".thresholdcircle").attr("r",SignificantScale(sliderValue));
 //
         var arc = d3.selectAll(".arc");
@@ -62,7 +93,63 @@
         });
     });
 
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
 
+
+
+    var force = d3.layout.force()
+        .gravity(0.05)
+        .distance(100)
+        .charge(-100)
+        .size([width, height]);
+
+   // console.log(dataset)
+
+        //updatenetwork(graph.nodes,graph.links);
+
+
+
+    function updatenetwork(nodes,links) {
+        force
+            .nodes(nodes)
+            .links(links)
+            .start();
+
+        var link = svg.selectAll(".link")
+            .data(links)
+            .enter().append("line")
+            .attr("class", "link");
+
+        var node = svg.selectAll(".node")
+            .data(nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .call(force.drag);
+
+        node.append("image")
+            .attr("xlink:href", "https://github.com/favicon.ico")
+            .attr("x", -8)
+            .attr("y", -8)
+            .attr("width", 16)
+            .attr("height", 16);
+
+        node.append("text")
+            .attr("dx", 12)
+            .attr("dy", ".35em")
+            .text(function(d) { return d.name });
+
+        force.on("tick", function() {
+            link.attr("x1", function(d) { return d.source.x; })
+                .attr("y1", function(d) { return d.source.y; })
+                .attr("x2", function(d) { return d.target.x; })
+                .attr("y2", function(d) { return d.target.y; });
+
+            node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+        });
+    }
+    });
 </script>
 
 <table width="100%" border="1" style="border-collapse: collapse;">
